@@ -1,6 +1,6 @@
-Micubiculo.com
+Litte Little Bird
 =================
 
-Just my personal page with rants about software development
+My personal blog which records how a mechanician get in love with programming and linux  
 
-It's mostly a personal page ;)
+It's mostly a personal page ;)  
