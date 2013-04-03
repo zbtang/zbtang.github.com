@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<article>
+    <header>
+      <img src="/images/covers/{{page.cover}}" alt="Cover">
+      <h2>{{page.title}}</h2>
+    </header>
+    <section class="post_text">{{ content }}</section>
+    <section class="paging">
+      {% if page.previous.url %} <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"><i class="icon-chevron-left"></i></a>   {% endif %}   {% if page.next.url %}  <a href="{{page.next.url}}" title="Next Post: {{page.next.title}}"><i class="icon-chevron-right"></i></a>   {% endif %} </p>  
+    </section>
+    <section class="social_links">
+      <a href="http://news.ycombinator.com/submitlink?u=http://micubiculo.com{{ page.url }}&t={{ page.title }}"><img src="/images/yc500.gif" alt="Submit to Hacker News"></a>
+      <a href="http://www.reddit.com/submit?url=http://micubiculo.com{{ page.url }}&title={{ page.title }}"><img src="http://www.reddit.com/static/spreddit1.gif" alt="Submit to Reddit"></a>
+      <a href="https://twitter.com/share?url=" class="twitter-share-button" data-via="rafadc" data-url="http://micubiculo.com{{ page.url }}" data-text="{{ page.title }}">Tweet</a>
+      <div class="g-plusone" data-size="small" style="height:20px; vertical-align: middle !important;"></div>
+    </section>
+    <section>{% include disqus.html %}</section>
+    <section class="attributions">Cover photo: <a href="{{ page.cover_attribution }}">{{ page.cover_attribution }}</a></section>
+</article>
+<script type="text/javascript">
+  window.___gcfg = {lang: 'en-GB'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
