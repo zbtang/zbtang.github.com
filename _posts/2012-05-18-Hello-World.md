@@ -5,13 +5,13 @@ cover: baby.jpg
 cover_attribution: http://www.flickr.com/photos/sergiu_bacioiu/4444496049/
 ---
 
-Hi guys. Back to writing again. It's been a long time since I write something but I'm back to 
-my rants again.
+你好，世界。  
 
-I have almost nothing here at the moment but you know how the story goes. 
+今天，我这只小小鸟终于在这个网络世界的某个小角落里，有了自己的一个干净的小巢:)  
 
-I'm using github pages and jekyll. It's really a cool system for blogging because of the 
-flexibility.
+我将在这里总结分享我从一个非计算机科班出身的菜鸟成长为一个合格的程序员（虽然现在还不合格，但我相信总有一天会的！），记录我的生活与思考，沉淀时光匆匆而逝后闪烁金砾。  
 
-Have fun!
+这个博客搭建在github平台上，使用的是jekyll框架。并且借鉴了别人的代码和布局设计，因为我对web端的东西还不是太熟悉，搭建的并不是很完美，以后会继续完善的。最后感谢帮我设计这个小巢的卢同学。  
+
+世界，我来了。  
 

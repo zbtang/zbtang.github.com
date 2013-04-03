@@ -117,3 +117,12 @@ h2 > a {
   -webkit-box-shadow: 3px 3px 2px rgb(100, 100, 100);
   box-shadow: 3px 3px 2px rgb(100, 100, 100);
 }
+article {
+	width:800px;
+}
+header {
+	text-align:center;
+}
+p {
+	text-indent:22pt;
+}
