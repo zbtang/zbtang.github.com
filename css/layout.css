@@ -1,0 +1,187 @@
+li a, p, li,li h1, ul,  img{
+    border: 0 none;
+    font-family: Microsoft Yahei;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+a {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+}
+ul {
+    list-style: none outside none;
+}
+.cl1 {
+    background: none repeat scroll 0 0 #F16D61;
+}
+.cl2 {
+    background: none repeat scroll 0 0 #F08861;
+}
+.cl3 {
+    background: none repeat scroll 0 0 #F39F45;
+}
+.cl4 {
+    background: none repeat scroll 0 0 #F2BE37;
+}
+.cl5 {
+    background: none repeat scroll 0 0 #619737;
+}
+.cl6 {
+    background: none repeat scroll 0 0 #286B48;
+}
+.cl7 {
+    background: none repeat scroll 0 0 #007097;
+}
+#works_select li a:hover {
+    background: none repeat scroll 0 0 gray;
+}
+#work_show {
+    position: relative;
+    top: 2px;
+    width: 600px;
+}
+#work_show li.now_work {
+    display: block;
+    opacity: 1;
+}
+#work_show li {
+    display: none;
+    left: 0;
+    opacity: 0;
+    position: relative;
+    top: 0;
+}
+#work_show li h1, #work_show li h1 span, #work_show li h1 a {
+    color: white;
+    line-height: 36px;
+}
+#work_show li h1 a {
+    display: inline-block;
+    padding: 0 10px;
+    position: absolute;
+    right: 0;
+}
+#work_show li h1 {
+    height: 36px;
+    padding-left: 10px;
+    position: relative;
+}
+.pic_box {
+    height: 254px;
+    overflow: hidden;
+    position: relative;
+}
+.pic_box img {
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+.pic_box p {
+    bottom: 0;
+    color: white;
+    cursor: default;
+    font-size: 14px;
+    left: 0;
+    padding: 5px 10px;
+    position: absolute;
+    width: 580px;
+}
+.copyright {
+    background: none repeat scroll 0 0 gray;
+    height: 26px;
+    padding-right: 10px;
+    text-align: right;
+}
+.copyright p, .copyright p span {
+    font-size: 12px;
+    line-height: 26px;
+}
+.fleft {
+    float: left;
+}
+.fright {
+    float: right;
+}
+#works {
+    left: 5%;
+    position: relative;
+    width: 800px;
+    z-index: 40;
+}
+#works_select {
+    width: 200px;
+}
+#works_select li {
+    display: inline-block;
+    float: left;
+    height: 60px;
+    margin: 2px;
+    overflow: hidden;
+    width: 60px;
+}
+#works_select li a {
+    color: white;
+    font-size: 20px;
+    height: 100%;
+    padding: 35px 7px 10px 36px;
+    position: relative;
+    top: 30px;
+    width: 100%;
+}
+.ft14 {
+    font-size: 14px;
+}
+.ft12 {
+    font-size: 12px;
+}
+.ft22 {
+    font-size: 22px;
+}
+#work_show li h1, #work_show li h1 span, #work_show li h1 a {
+    color: white;
+    line-height: 36px;
+}
+.color1 h1, .color1 .pic_box p {
+    background: none repeat scroll 0 0 #F16D61;
+}
+.color1 .copyright p span {
+    color: #F16D61;
+}
+.color2 h1, .color2 .pic_box p {
+    background: none repeat scroll 0 0 #F08861;
+}
+.color2 .copyright p span {
+    color: #F08861;
+}
+.color3 h1, .color3 .pic_box p {
+    background: none repeat scroll 0 0 #F39F45;
+}
+.color3 .copyright p span {
+    color: #F39F45;
+}
+.color4 h1, .color4 .pic_box p {
+    background: none repeat scroll 0 0 #F2BE37;
+}
+.color4 .copyright p span {
+    color: #F2BE37;
+}
+.color5 h1, .color5 .pic_box p {
+    background: none repeat scroll 0 0 #619737;
+}
+.color5 .copyright p span {
+    color: #619737;
+}
+.color6 h1, .color6 .pic_box p {
+    background: none repeat scroll 0 0 #286B48;
+}
+.color6 .copyright p span {
+    color: #286B48;
+}
+.color7 h1, .color7 .pic_box p {
+    background: none repeat scroll 0 0 #007097;
+}
+.color7 .copyright p span {
+    color: #007097;
+}
