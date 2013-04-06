@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Liittle Litte Bird</title>
+  <link href="/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+<link href="/lib/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300|Open+Sans' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="/lib/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/lib/js/jquery.masonry.min.js"></script>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39830825-1', 'github.com');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body>
+	<script type="text/javascript">
+		$(document).ready(
+			function(){
+				$(window).scroll(function(){
+					var nav_top=$("#nav_bar").offset().top
+					if($(window).scrollTop() <= nav_top)
+						console.log(1,"down");
+					else
+						console.log(2,"up");
+					//if($(window).scrollTop()==nav_top)
+					//	console.log(1,1);
+
+				});} 
+			);
+	</script>
+    <header>
+      <div class="navbar">
+        <div class="navbar-inner">
+          <div class="container">
+
+			  <h1><img src="/images/bird.gif" style="width:100px; height:100px;"/>Little Little Bird</h1>
+            <h2 id="nav_bar">
+              <a href="/">Blog</a> - 
+              <a href="/aboutme.html">About me</a> - 
+              <a href="/feed"><img src="/images/feed-icon-28x28.png" />&nbsp;feed</a></h2>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="span1">&nbsp;</div>
+      <div class="span10">		<section>
+			<link rel="stylesheet" href="/css/layout.css"/>
+			<script type="text/javascript" src="/js/html5.js"></script>
+			<script type="text/javascript" src="/js/js.js"></script>
+			<script type="text/javascript" src="/js/easing.js"></script>
+			<script type="text/javascript" src="/js/jquery-ui-1.10.2.custom.min.js"></script>
+			<div id="works">
+				<ul id="works_select" class="fleft">
+					<li>
+						<a class="cl1">我</a>
+					</li>
+					<li>
+						<a class="cl2">相</a>
+					</li>
+					<li>
+						<a class="cl3">招</a>
+					</li>
+					<li>
+						<a class="cl2">点</a>
+					</li>
+					<li>
+						<a class="cl3">瓜</a>
+					</li>
+					<li>
+						<a class="cl4">师</a>
+					</li>
+					<li>
+						<a class="cl3">初</a>
+					</li>
+					<li>
+						<a class="cl4">雷</a>
+					</li>
+					<li>
+						<a class="cl5">坛</a>
+					</li>
+					<li>
+						<a class="cl4">窟</a>
+					</li>
+					<li>
+						<a class="cl5">设</a>
+					</li>
+					<li>
+						<a class="cl6">片</a>
+					</li>
+					<li>
+						<a class="cl5">员</a>
+					</li>
+					<li>
+						<a class="cl6">落</a>
+					</li>
+					<li>
+						<a class="cl7">爱</a>
+					</li>
+				</ul>
+				<ul id="work_show" class="fleft">
+					<li class="color1 now_work">
+						<h1>
+							<span class="ft12">ME</span>
+							<span class="ft22">一只小小鸟</span>
+							<a href="http://www.weibo.com/zbtang" target="_blank">wei.bo</a>
+						</h1>
+						<div class="pic_box">
+							<img src="/images/works/work1.jpg"/>
+							<p>目前就读于山东大学机械学院机制专业，大二去华中科技大学交流，加入了联创团队Android组，并喜欢上了编程和linux，希望能找到一个Android开发工程师的实习机会。</p>
+						</div>
+						<div class="copyright">
+							<p>designed by <span>my father </span>and borned by <span>my mother</span></p>
+						</div>
+					</li>
+					<li class="color2">
+						<h1>
+							<span class="ft12">web</span>
+							<span class="ft22">华中大相册</span>
+							<a href="http://pic.hust.edu.cn/" target="_blank">view site</a>
+						</h1>
+						<div class="pic_box">
+							<img src="/images/works/work2.jpg"/>
+
+							<p>从无到有的过程只有经历了才知道，很庆幸自己在大学期间就已经经历了，三个人的小组造就了华中大相册，虽显稚嫩，但它将同我们成长的步伐一起，不断完善下去</p>
+						</div>
+						<div class="copyright">
+							<p>front-end coded by <span>me</span>/designed by <span>me</span></p>
+						</div>
+					</li>
+					<li class="color3">
+						<h1>
+							<span class="ft12">web</span>
+							<span class="ft22">冰岩作坊2012年秋季招新页面</span>
+							<a href="http://hr.bingyan.net/20123" target="_blank">view site</a>
+						</h1>
+						<div class="pic_box">
+							<img src="/images/works/work3.jpg"/>
+							<p>初次使用了canvas标签，富于变化的招新页面也展现了冰岩作坊勇于创新的一面，第一次体验到了deadline的恐怖，但完成之后的成就感满载╮(╯3╰)╭</p>
+						</div>
+						<div class="copyright">
+							<p>front-end coded by <span>me</span>/designed by <span>野妹子</span></p>
+						</div>
+					</li>
+					<li class="color2">
+						<h1>
+							<span class="ft12">web</span>
+							<span class="ft22">点点模板</span>
+							<a href="http://www.diandian.com/themes/214/show" target="_blank">view site</a>
+						</h1>
+						<div class="pic_box">
+							<img src="/images/works/work4.jpg"/>
+							<p>为点点轻博客制作的模板，现已是点点热门推荐模板。第一次做博客模板，也是第一次使用模板语法，在严格的语法规范和UI规范中收获了身为前端第一桶金</p>
+						</div>
+						<div class="copyright">
+							<p>front-end coded by <span>me</span>/designed by <span>tumblr</span></p>
+						</div>
+					</li>
+					<li class="color3">
+						<h1>
+							<span class="ft12">web</span>
+							<span class="ft22">华中大在线——万圣节版</span>
+							<a href="http://teamshare.bingyan.net/2dm/person/wanshengjie/index.html" target="_blank">view site</a>
+						</h1>
+						<div class="pic_box">
+							<img src="/images/works/work5.jpg"/>
+							<p>为万圣节准备的华中大在线，在原网站中增加了找南瓜的小游戏，找齐四个南瓜就有奖品哦，听说有人找了2个多小时（噗），创造了华中大在线PV的一个高峰</p>
+						</div>
+						<div class="copyright">
+							<p>front-end coded by <span>me</span>/designed by <span>野妹子</span></p>
+						</div>
+					</li>
+					<li class="color4">
+						<h1>
+							<span class="ft12">web</span>
+							<span class="ft22">华科教师个人主页</span>
+							<a href="http://teacher.hustonline.net/" target="_blank">view site</a>
+						</h1>
+						<div class="pic_box">
+							<img src="/images/works/work6.jpg"/>
+							<p>用来介绍华中科技大学教师信息的网站，使用了kindeditor编辑器，网站的内容还在不断完善中</p>
+						</div>
+						<div class="copyright">
+							<p>front-end coded by <span>me</span>/designed by <span>肉驼子</span></p>
+						</div>
+					</li>
+					<li class="color3">
+						<h1>
+							<span class="ft12">web</span>
+							<span class="ft22">冰岩作坊2012年春季招新页面</span>
+							<a href="http://hr.bingyan.net/20121/" target="_blank">view site</a>
+						</h1>
+						<div class="pic_box">
+							<img src="/images/works/work7.jpg"/>
+							<p>人生第一个独立完成的网站，第一次体会到兼容性的蛋疼，不管是设计和代码都显稚嫩，但每个人的第一次又怎不曾是如此呢？</p>
+						</div>
+						<div class="copyright">
+							<p>front-end coded by <span>me</span>/designed by <span>me</span></p>
+						</div>
+					</li>
+					<li class="color4">
+						<h1>
+							<span class="ft12">web</span>
+							<span class="ft22">华科2012年雷锋专题</span>
+							<a href="http://focus.hustonline.net/zhuanti/leifeng/" target="_blank">view site</a>
+						</h1>
+						<div class="pic_box">
+							<img src="/images/works/work8.jpg"/>
+							<p>“不要问我叫什么名字，我的名字叫活雷锋。”第一次做专题网站，谁说我不根正苗红的（其实真不是）</p>
+						</div>
+						<div class="copyright">
+							<p>front-end coded by <span>me</span>/designed by <span>me</span></p>
+						</div>
+					</li>
+					<li class="color5">
+						<h1>
+							<span class="ft12">web</span>
+							<span class="ft22">先进制造博后论坛</span>
+							<a href="http://teamshare.bingyan.net/2dm/person/bhlt/index.html" target="_blank">view site</a>
+						</h1>
+						<div class="pic_box">
+							<img src="/images/works/work9.jpg"/>
+							<p>网站全名是“2012年先进制造前沿全国博士后交叉学科创新论坛”，“国家新闻出版广播电影电视总局”什么的弱爆了！（咦，怎么变成吐槽了</p>
+						</div>
+						<div class="copyright">
+							<p>front-end coded by <span>me</span>/designed by <span>me</span></p>
+						</div>
+					</li>
+					<li class="color4">
+						<h1>
+							<span class="ft12">illustration</span>
+							<span class="ft22">サボり隊員</span>
+							<a href="http://www.pixiv.net/member_illust.php?mode=medium&illust_id=34217196" target="_blank">view source</a>
+						</h1>
+						<div class="pic_box">
+							<img src="/images/works/work10.jpg"/>
+							<p>参加Pixiv的PFNW企划绘制的插画一枚，背景什么的请自动打码</p>
+						</div>
+						<div class="copyright">
+							<p>created by <span>me</span></p>
+						</div>
+					</li>
+					<li class="color5">
+						<h1>
+							<span class="ft12">illustration</span>
+							<span class="ft22">クロス·フェルミ</span>
+							<a href="http://www.pixiv.net/member_illust.php?mode=medium&illust_id=34141275" target="_blank">view source</a>
+						</h1>
+						<div class="pic_box">
+							<img src="/images/works/work11.jpg"/>
+							<p>参加Pixiv的PFNW企划绘制的人设（儿子）一枚，设定上是一个科学狂</p>
+						</div>
+						<div class="copyright">
+							<p>created by <span>me</span></p>
+						</div>
+					</li>
+					<li class="color6">
+						<h1>
+							<span class="ft12">illustration</span>
+							<span class="ft22">Aリリィ</span>
+							<a href="http://www.pixiv.net/member_illust.php?mode=medium&illust_id=32560194" target="_blank">view source</a>
+						</h1>
+						<div class="pic_box">
+							<img src="/images/works/work12.jpg"/>
+							<p>为了蛇年和众网友们交换明信片而绘制的插画，角色出自于游戏《紫影のソナーニル》中的Lily和A，也是第一次自己制作明信片</p>
+						</div>
+						<div class="copyright">
+							<p>created by <span>me</span></p>
+						</div>
+					</li>
+					<li class="color5">
+						<h1>
+							<span class="ft12">illustration</span>
+							<span class="ft22">The A</span>
+							<a href="http://www.pixiv.net/member_illust.php?mode=medium&illust_id=32175088" target="_blank">view source</a>
+						</h1>
+						<div class="pic_box">
+							<img src="/images/works/work13.jpg"/>
+							<p>角色是来自游戏《紫影のソナーニル》中的A</p>
+						</div>
+						<div class="copyright">
+							<p>created by <span>me</span></p>
+						</div>
+					</li>
+					<li class="color6">
+						<h1>
+							<span class="ft12">illustration</span>
+							<span class="ft22">落ちていく</span>
+							<a href="http://www.pixiv.net/member_illust.php?mode=medium&illust_id=32403285" target="_blank">view source</a>
+						</h1>
+						<div class="pic_box">
+							<img src="/images/works/work14.jpg"/>
+							<p>在玩《紫影のソナーニル》的过程中，被里面各种有意思的设定和剧情给吸引，于是脑补了女主角Lily慢慢落到地底的那一幕</p>
+						</div>
+						<div class="copyright">
+							<p>created by <span>me</span></p>
+						</div>
+					</li>
+					<li class="color7">
+						<h1>
+							<span class="ft12">android</span>
+							<span class="ft22">LoveLetter</span>
+							<a href="https://github.com/zbtang/LoveLetter" target="_blank">view source</a>
+						</h1>
+						<div class="pic_box">
+							<img src="/images/works/work15.jpg"/>
+							<p>做的第一个Android小游戏。谨以此游戏献给改变我的华科联创团队！</p>
+						</div>
+						<div class="copyright">
+							<p>coded by  <span>me </span> and designed by <span> 賴夏伦 </span></p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+</div>
+      <div class="span1">&nbsp;</div>
+    </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="span4">&nbsp;</div>
+        <div class="span4">
+          <i>
+            This is the little personal page of <a href="/aboutme.html">Little Little Bird</a>. All contents here
+            are licensed under Creative Commons attribution license.
+          </i>
+          <br>
+          <img src="/images/CC-by.png" />
+        </div>
+        <div class="span4">&nbsp;</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
