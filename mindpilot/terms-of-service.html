@@ -1,0 +1,669 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Terms of Service</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="91550f09-ab0d-4b9a-8cd6-176a05409a61" class="page sans"><header><h1 class="page-title">Terms of Service</h1></header><div class="page-body"><h2 id="61687c18-9935-4d5f-b022-480dc1fc11d4" class=""><strong>General Terms</strong></h2><p id="25f9bc4a-2402-4f45-a6c1-36f9a682f8e3" class="">By accessing and placing an order with MindPilot, you confirm that you are in agreement with and bound by the terms of service contained in the Terms &amp; Conditions outlined below. These terms apply to the entire website and any email or other type of communication between you and MindPilot.</p><p id="fce13d4c-6d9f-4d70-a6ed-0da4c933500e" class="">Under no circumstances shall MindPilot team be liable for any direct, indirect, special, incidental or consequential damages, including, but not limited to, loss of data or profit, arising out of the use, or the inability to use, the materials on this site, even if MindPilot team or an authorized representative has been advised of the possibility of such damages. If your use of materials from this site results in the need for servicing, repair or correction of equipment or data, you assume any costs thereof.</p><p id="eafa4387-7952-4003-86ec-55551ef2b87b" class="">MindPilot will not be responsible for any outcome that may occur during the course of usage of our resources. We reserve the rights to change prices and revise the resources usage policy in any moment.</p><h2 id="83bb9750-7660-4ef3-8041-372b4a01a8ea" class=""><strong>License</strong></h2><p id="97e2b351-aabf-4a85-b4ec-dfcccbd49ae2" class="">MindPilot grants you a revocable, non-exclusive, non-transferable, limited license to download, install and use the app strictly in accordance with the terms of this Agreement.</p><p id="975fca62-f61b-4456-a9a7-92dc2495888e" class="">These Terms &amp; Conditions are a contract between you and MindPilot (referred to in these Terms &amp; Conditions as &quot;MindPilot&quot;, &quot;us&quot;, &quot;we&quot; or &quot;our&quot;), the provider of the MindPilot website and the services accessible from the MindPilot website (which are collectively referred to in these Terms &amp; Conditions as the &quot;MindPilot Service&quot;).</p><p id="dcf555d8-3aef-4f6e-b14c-148275f1d372" class="">You are agreeing to be bound by these Terms &amp; Conditions. If you do not agree to these Terms &amp; Conditions, please do not use the MindPilot Service. In these Terms &amp; Conditions, &quot;you&quot; refers both to you as an individual and to the entity you represent. If you violate any of these Terms &amp; Conditions, we reserve the right to cancel your account or block access to your account without notice.</p><h2 id="85157f21-e612-42df-af20-f5faf6bb4a98" class=""><strong>Definitions and key terms</strong></h2><p id="44d700fd-3dfe-4324-aecb-5e449bd4b4fa" class="">To help explain things as clearly as possible in this Terms &amp; Conditions, every time any of these terms are referenced, are strictly defined as:</p><ul id="15a37143-8627-409e-981e-1874970a6e53" class="bulleted-list"><li style="list-style-type:disc">Cookie: small amount of data generated by a website and saved by your web browser. It is used to identify your browser, provide analytics, remember information about you such as your language preference or login information.</li></ul><ul id="c640c656-eeba-4014-a9e4-b88d718625c2" class="bulleted-list"><li style="list-style-type:disc">Company: when this policy mentions “Company,” “we,” “us,” or “our,” it refers to CyberCat, HACI İSA MAHALLESİ 75.YIL CUMHURİYET CAD. NO: 5 İÇ KAPI NO: 2 URLA / İZMİR that is responsible for your information under this Terms &amp; Conditions.</li></ul><ul id="73b8267e-335f-4737-af54-8b4cced3c507" class="bulleted-list"><li style="list-style-type:disc">Country: where MindPilot or the owners/founders of MindPilot are based, in this case is the US</li></ul><ul id="a3e4aef8-9fd3-4e6a-a7fb-90a7ebe65570" class="bulleted-list"><li style="list-style-type:disc">Device: any internet connected device such as a phone, tablet, computer or any other device that can be used to visit MindPilot and use the services.</li></ul><ul id="857f237a-bf5f-4190-ac7b-b0564eaddc26" class="bulleted-list"><li style="list-style-type:disc">Service: refers to the service provided by MindPilot as described in the relative terms (if available) and on this platform.</li></ul><ul id="49c2aedf-148d-43bf-b623-fd5b48d7bc9c" class="bulleted-list"><li style="list-style-type:disc">Third-party service: refers to advertisers, contest sponsors, promotional and marketing partners, and others who provide our content or whose products or services we think may interest you.</li></ul><ul id="7bb8cef7-a03c-46e8-8a92-262ebdd658d3" class="bulleted-list"><li style="list-style-type:disc">Website: MindPilot&#x27;s site, which can be accessed via this URL:</li></ul><ul id="7f4c2ca8-4413-41fc-8466-e38e153dd47d" class="bulleted-list"><li style="list-style-type:disc">You: a person or entity that is registered with MindPilot to use the Services.</li></ul><h2 id="19fc55ff-5319-4244-a360-92633f1fcbcd" class=""><strong>Restrictions</strong></h2><p id="e4d778b4-6edf-4446-95c1-a77b2c06c7e4" class="">You agree not to, and you will not permit others to:</p><ul id="e107c370-f3a3-40d0-a943-15fb6c5bd782" class="bulleted-list"><li style="list-style-type:disc">License, sell, rent, lease, assign, distribute, transmit, host, outsource, disclose or otherwise commercially exploit the app or make the platform available to any third party.</li></ul><ul id="bd584f27-98b7-4484-b219-c91f6bd5f1b2" class="bulleted-list"><li style="list-style-type:disc">Modify, make derivative works of, disassemble, decrypt, reverse compile or reverse engineer any part of the app.</li></ul><ul id="087c5688-f07f-45ee-85d9-cb89136fef47" class="bulleted-list"><li style="list-style-type:disc">Remove, alter or obscure any proprietary notice (including any notice of copyright or trademark) of MindPilot or its affiliates, partners, suppliers or the licensors of the app.</li></ul><h2 id="af97628e-ec66-4072-9dfd-72b4c7e3c630" class=""><strong>Return and Refund Policy</strong></h2><p id="5abaea30-9a0f-4919-a748-a4f3de570b60" class="">Thanks for shopping at MindPilot. We appreciate the fact that you like to buy the stuff we build. We also want to make sure you have a rewarding experience while you’re exploring, evaluating, and purchasing our products.</p><p id="f46e16f5-a89b-470e-a060-7cfbaff25579" class="">As with any shopping experience, there are terms and conditions that apply to transactions at MindPilot. We’ll be as brief as our attorneys will allow. The main thing to remember is that by placing an order or making a purchase at MindPilot, you agree to the terms along with MindPilot&#x27;s Privacy Policy.</p><p id="9af1b83e-b59c-407b-9e16-b09d01e48171" class="">If, for any reason, You are not completely satisfied with any good or service that we provide, don&#x27;t hesitate to contact us and we will discuss any of the issues you are going through with our product.</p><h2 id="05239020-7c51-4540-ae24-25b32121534c" class=""><strong>Your Suggestions</strong></h2><p id="9dde446c-4f94-47b0-8dcf-8baabddb8ba7" class="">Any feedback, comments, ideas, improvements or suggestions (collectively, &quot;Suggestions&quot;) provided by you to MindPilot with respect to the app shall remain the sole and exclusive property of MindPilot.</p><p id="e8d92173-e864-4d84-b491-141bb94373ec" class="">MindPilot shall be free to use, copy, modify, publish, or redistribute the Suggestions for any purpose and in any way without any credit or any compensation to you.</p><h2 id="8ba732fb-7573-45c8-b52e-9947cc73cda6" class=""><strong>Your Consent</strong></h2><p id="9cde7f4d-5323-4574-b010-67a1a1186521" class="">We&#x27;ve updated our Terms &amp; Conditions to provide you with complete transparency into what is being set when you visit our site and how it&#x27;s being used. By using our app, registering an account, or making a purchase, you hereby consent to our Terms &amp; Conditions.</p><h2 id="84543212-4782-497c-b37b-b99b0fdb87e9" class=""><strong>Links to Other Websites</strong></h2><p id="e396cfbc-73cb-48bb-96e8-efdc3e16ab1b" class="">This Terms &amp; Conditions applies only to the Services. The Services may contain links to other websites not operated or controlled by MindPilot. We are not responsible for the content, accuracy or opinions expressed in such websites, and such websites are not investigated, monitored or checked for accuracy or completeness by us. Please remember that when you use a link to go from the Services to another website, our Terms &amp; Conditions are no longer in effect. Your browsing and interaction on any other website, including those that have a link on our platform, is subject to that website’s own rules and policies. Such third parties may use their own cookies or other methods to collect information about you.</p><h2 id="c329114f-87d0-4455-b788-87abcf5bb157" class=""><strong>Cookies</strong></h2><p id="1ccc8f3c-56ce-4088-ad52-e015e0dee2cb" class="">MindPilot uses &quot;Cookies&quot; to identify the areas of our website that you have visited. A Cookie is a small piece of data stored on your computer or mobile device by your web browser. We use Cookies to enhance the performance and functionality of our app but are non-essential to their use. However, without these cookies, certain functionality like videos may become unavailable or you would be required to enter your login details every time you visit the app as we would not be able to remember that you had logged in previously. Most web browsers can be set to disable the use of Cookies. However, if you disable Cookies, you may not be able to access functionality on our website correctly or at all. We never place Personally Identifiable Information in Cookies.</p><h2 id="602e7002-8251-453b-92e1-cd920fd5d222" class=""><strong>Changes To Our Terms &amp; Conditions</strong></h2><p id="03987369-f4dd-4bcc-8b63-1d7e377dd728" class="">You acknowledge and agree that MindPilot may stop (permanently or temporarily) providing the Service (or any features within the Service) to you or to users generally at MindPilot&#x27;s sole discretion, without prior notice to you. You may stop using the Service at any time. You do not need to specifically inform MindPilot when you stop using the Service. You acknowledge and agree that if MindPilot disables access to your account, you may be prevented from accessing the Service, your account details or any files or other materials which is contained in your account.</p><p id="7df1456d-a6b1-4d7c-a1d3-f99b85ca430f" class="">If we decide to change our Terms &amp; Conditions, we will post those changes on this page, and/or update the Terms &amp; Conditions modification date below.</p><h2 id="fa647f2e-3bd2-4d11-a316-37ead014c4cc" class=""><strong>Modifications to Our app</strong></h2><p id="b27e27a9-ac6b-42e9-9193-eedf22ac10e4" class="">MindPilot reserves the right to modify, suspend or discontinue, temporarily or permanently, the app or any service to which it connects, with or without notice and without liability to you.</p><h2 id="77345196-c729-47c0-8acc-51695a88edca" class=""><strong>Updates to Our app</strong></h2><p id="0a1944fc-5f7e-4691-b3e7-f4f3c83521c2" class="">MindPilot may from time to time provide enhancements or improvements to the features/ functionality of the app, which may include patches, bug fixes, updates, upgrades and other modifications (&quot;Updates&quot;).</p><p id="969bc551-8b8c-44d2-99ef-b533f60c3b38" class="">Updates may modify or delete certain features and/or functionalities of the app. You agree that MindPilot has no obligation to (i) provide any Updates, or (ii) continue to provide or enable any particular features and/or functionalities of the app to you.</p><p id="76fcb263-65d0-4211-8cc3-253b9b5364f9" class="">You further agree that all Updates will be (i) deemed to constitute an integral part of the app, and (ii) subject to the terms and conditions of this Agreement.</p><h2 id="0ba52f19-3f23-4bf4-a006-479739f3fbca" class=""><strong>Third-Party Services</strong></h2><p id="b26ef84e-4166-4ee3-8477-0dcddbf06dc4" class="">We may display, include or make available third-party content (including data, information, applications and other products services) or provide links to third-party websites or services (&quot;Third-Party Services&quot;).</p><p id="ab5583fb-0b08-4200-871e-96f07b54269c" class="">You acknowledge and agree that MindPilot shall not be responsible for any Third-Party Services, including their accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality or any other aspect thereof. MindPilot does not assume and shall not have any liability or responsibility to you or any other person or entity for any Third-Party Services.</p><p id="61216af9-83c3-446d-a990-6f20414462f5" class="">Third-Party Services and links thereto are provided solely as a convenience to you and you access and use them entirely at your own risk and subject to such third parties&#x27; terms and conditions.</p><h2 id="60d45456-7947-47ca-b0f3-41e7fa6e4116" class=""><strong>Term and Termination</strong></h2><p id="22bfb642-6d3f-4964-a634-1ed9b9d36100" class="">This Agreement shall remain in effect until terminated by you or MindPilot.</p><p id="cae56005-8a2a-45dc-925f-42048dbed8f7" class="">MindPilot may, in its sole discretion, at any time and for any or no reason, suspend or terminate this Agreement with or without prior notice.</p><p id="49faede6-2f14-448b-8028-2653a6369526" class="">This Agreement will terminate immediately, without prior notice from MindPilot, in the event that you fail to comply with any provision of this Agreement. You may also terminate this Agreement by deleting the app and all copies thereof from your computer.</p><p id="d9ed0a90-83ff-4328-9ba9-80e5907aaed3" class="">Upon termination of this Agreement, you shall cease all use of the app and delete all copies of the app from your computer.</p><p id="ca192813-59b6-41d3-8ffa-ca004bf2a961" class="">Termination of this Agreement will not limit any of MindPilot&#x27;s rights or remedies at law or in equity in case of breach by you (during the term of this Agreement) of any of your obligations under the present Agreement.</p><h2 id="9cdb3747-45dc-4173-b717-6cd1bd09703b" class=""><strong>Copyright Infringement Notice</strong></h2><p id="72a90859-9774-4435-8262-cd8dde64b161" class="">If you are a copyright owner or such owner’s agent and believe any material on our app constitutes an infringement on your copyright, please contact us setting forth the following information: (a) a physical or electronic signature of the copyright owner or a person authorized to act on his behalf; (b) identification of the material that is claimed to be infringing; (c) your contact information, including your address, telephone number, and an email; (d) a statement by you that you have a good faith belief that use of the material is not authorized by the copyright owners; and (e) the a statement that the information in the notification is accurate, and, under penalty of perjury you are authorized to act on behalf of the owner.</p><h2 id="8b111c2c-aecd-4226-9520-f681c1b2461d" class=""><strong>Indemnification</strong></h2><p id="204d293d-7637-4da7-aa9a-10de66c5aacd" class="">You agree to indemnify and hold MindPilot and its parents, subsidiaries, affiliates, officers, employees, agents, partners and licensors (if any) harmless from any claim or demand, including reasonable attorneys&#x27; fees, due to or arising out of your: (a) use of the app; (b) violation of this Agreement or any law or regulation; or (c) violation of any right of a third party.</p><h2 id="09927615-e2d7-4e7e-aede-ddaf7a0be812" class=""><strong>No Warranties</strong></h2><p id="670abe21-03bd-453a-ba7d-0e0352504637" class="">The app is provided to you &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; and with all faults and defects without warranty of any kind. To the maximum extent permitted under applicable law, MindPilot, on its own behalf and on behalf of its affiliates and its and their respective licensors and service providers, expressly disclaims all warranties, whether express, implied, statutory or otherwise, with respect to the app, including all implied warranties of merchantability, fitness for a particular purpose, title and non-infringement, and warranties that may arise out of course of dealing, course of performance, usage or trade practice. Without limitation to the foregoing, MindPilot provides no warranty or undertaking, and makes no representation of any kind that the app will meet your requirements, achieve any intended results, be compatible or work with any other software, , systems or services, operate without interruption, meet any performance or reliability standards or be error free or that any errors or defects can or will be corrected.</p><p id="3eef0266-8c30-40d0-8dac-e783547578a5" class="">Without limiting the foregoing, neither MindPilot nor any MindPilot&#x27;s provider makes any representation or warranty of any kind, express or implied: (i) as to the operation or availability of the app, or the information, content, and materials or products included thereon; (ii) that the app will be uninterrupted or error-free; (iii) as to the accuracy, reliability, or currency of any information or content provided through the app; or (iv) that the app, its servers, the content, or e-mails sent from or on behalf of MindPilot are free of viruses, scripts, trojan horses, worms, malware, timebombs or other harmful components.</p><p id="b96033ec-fac2-4e3e-b9aa-1d753ad0a534" class="">Some jurisdictions do not allow the exclusion of or limitations on implied warranties or the limitations on the applicable statutory rights of a consumer, so some or all of the above exclusions and limitations may not apply to you.</p><h2 id="0948b44f-c30b-45be-b0dc-1d397b2c8f63" class=""><strong>Limitation of Liability</strong></h2><p id="b7ed6876-3772-4652-a05f-5f33e5266a55" class="">Notwithstanding any damages that you might incur, the entire liability of MindPilot and any of its suppliers under any provision of this Agreement and your exclusive remedy for all of the foregoing shall be limited to the amount actually paid by you for the app.</p><p id="1a9fb43e-9f8a-4ad6-b091-83926225c486" class="">To the maximum extent permitted by applicable law, in no event shall MindPilot or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits, for loss of data or other information, for business interruption, for personal injury, for loss of privacy arising out of or in any way related to the use of or inability to use the app, third-party software and/or third-party hardware used with the app, or otherwise in connection with any provision of this Agreement), even if MindPilot or any supplier has been advised of the possibility of such damages and even if the remedy fails of its essential purpose.</p><p id="283eb49d-9f8d-4e00-8577-622669fd902f" class="">Some states/jurisdictions do not allow the exclusion or limitation of incidental or consequential damages, so the above limitation or exclusion may not apply to you.</p><h2 id="6303d71a-66e4-4b5e-a500-5af46211404d" class=""><strong>Severability</strong></h2><p id="4ea85e5e-239a-4149-b7e7-38231892845a" class="">If any provision of this Agreement is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law and the remaining provisions will continue in full force and effect.</p><p id="0d954539-ae36-4599-917b-21605db32ee8" class="">This Agreement, together with the Privacy Policy and any other legal notices published by MindPilot on the Services, shall constitute the entire agreement between you and MindPilot concerning the Services. If any provision of this Agreement is deemed invalid by a court of competent jurisdiction, the invalidity of such provision shall not affect the validity of the remaining provisions of this Agreement, which shall remain in full force and effect. No waiver of any term of this Agreement shall be deemed a further or continuing waiver of such term or any other term, and MindPilot&#x27;s failure to assert any right or provision under this Agreement shall not constitute a waiver of such right or provision. YOU AND MindPilot AGREE THAT ANY CAUSE OF ACTION ARISING OUT OF OR RELATED TO THE SERVICES MUST COMMENCE WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES. OTHERWISE, SUCH CAUSE OF ACTION IS PERMANENTLY BARRED.</p><h2 id="b8079420-027d-49af-97cc-f53732614768" class=""><strong>Waiver</strong></h2><p id="2ae39d99-2bd7-4563-b215-39bffacdc9c8" class="">Except as provided herein, the failure to exercise a right or to require performance of an obligation under this Agreement shall not effect a party&#x27;s ability to exercise such right or require such performance at any time thereafter nor shall be the waiver of a breach constitute waiver of any subsequent breach.</p><p id="98f5b5fe-dea4-4487-9271-b8f4969f7a16" class="">o failure to exercise, and no delay in exercising, on the part of either party, any right or any power under this Agreement shall operate as a waiver of that right or power. Nor shall any single or partial exercise of any right or power under this Agreement preclude further exercise of that or any other right granted herein. In the event of a conflict between this Agreement and any applicable purchase or other terms, the terms of this Agreement shall govern.</p><h2 id="3ac5e1a0-4844-4ad8-b5bd-ca7626a774e2" class=""><strong>Amendments to this Agreement</strong></h2><p id="90cf9201-122a-45a0-9e3b-866268799406" class="">MindPilot reserves the right, at its sole discretion, to modify or replace this Agreement at any time. If a revision is material we will provide at least 30 days&#x27; notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p><p id="2f91c20f-9875-4855-a295-6a5ac4b3ec5a" class="">By continuing to access or use our app after any revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, you are no longer authorized to use MindPilot.</p><h2 id="bedb86b3-3c95-4062-b0c1-30e007bc501a" class=""><strong>Entire Agreement</strong></h2><p id="019d4026-e8d5-4210-ae73-885f79f938e7" class="">The Agreement constitutes the entire agreement between you and MindPilot regarding your use of the app and supersedes all prior and contemporaneous written or oral agreements between you and MindPilot.</p><p id="6ab0f449-13dd-4b65-9f4b-c9af82272324" class="">You may be subject to additional terms and conditions that apply when you use or purchase other MindPilot&#x27;s services, which MindPilot will provide to you at the time of such use or purchase.</p><h2 id="34df2cff-6636-4c75-a5c8-077a829654e3" class=""><strong>Updates to Our Terms</strong></h2><p id="08ca8725-ce45-4909-8f43-d2b5d292ab31" class="">We may change our Service and policies, and we may need to make changes to these Terms so that they accurately reflect our Service and policies. Unless otherwise required by law, we will notify you (for example, through our Service) before we make changes to these Terms and give you an opportunity to review them before they go into effect. Then, if you continue to use the Service, you will be bound by the updated Terms. If you do not want to agree to these or any updated Terms, you can delete your account.</p><h2 id="cca0b94b-7453-4454-8c7a-32a6548c99ab" class=""><strong>Intellectual Property</strong></h2><p id="cb2adfb6-d54a-44f1-85ab-4f57912362fd" class="">The app and its entire contents, features and functionality (including but not limited to all information, software, text, displays, images, video and audio, and the design, selection and arrangement thereof), are owned by MindPilot, its licensors or other providers of such material and are protected by TR and international copyright, trademark, patent, trade secret and other intellectual property or proprietary rights laws. The material may not be copied, modified, reproduced, downloaded or distributed in any way, in whole or in part, without the express prior written permission of MindPilot, unless and except as is expressly provided in these Terms &amp; Conditions. Any unauthorized use of the material is prohibited.</p><h2 id="a642e17c-16c7-46aa-a19b-1962059b54ed" class=""><strong>Agreement to Arbitrate</strong></h2><p id="19ae465f-a59d-4e34-bb71-094ebd629fff" class="">This section applies to any dispute EXCEPT IT DOESN’T INCLUDE A DISPUTE RELATING TO CLAIMS FOR INJUNCTIVE OR EQUITABLE RELIEF REGARDING THE ENFORCEMENT OR VALIDITY OF YOUR OR MindPilot&#x27;s INTELLECTUAL PROPERTY RIGHTS. The term “dispute” means any dispute, action, or other controversy between you and MindPilot concerning the Services or this agreement, whether in contract, warranty, tort, statute, regulation, ordinance, or any other legal or equitable basis. “Dispute” will be given the broadest possible meaning allowable under law.</p><h2 id="2eb61cd2-491c-4ffc-a139-f0f0117a6a2e" class=""><strong>Notice of Dispute</strong></h2><p id="c3ec91cc-c4a5-44f1-b0a5-cf150a07b0d4" class="">In the event of a dispute, you or MindPilot must give the other a Notice of Dispute, which is a written statement that sets forth the name, address, and contact information of the party giving it, the facts giving rise to the dispute, and the relief requested. You must send any Notice of Dispute via email to: cubercat.ai@gmail.com MindPilot will send any Notice of Dispute to you by mail to your address if we have it, or otherwise to your email address. You and MindPilot will attempt to resolve any dispute through informal negotiation within sixty (60) days from the date the Notice of Dispute is sent. After sixty (60) days, you or MindPilot may commence arbitration.</p><h2 id="4cb29867-f671-4b5c-b240-46589d61e15d" class=""><strong>Binding Arbitration</strong></h2><p id="08e275da-ed9a-424f-872a-0eb86a98c851" class="">If you and MindPilot don’t resolve any dispute by informal negotiation, any other effort to resolve the dispute will be conducted exclusively by binding arbitration as described in this section. You are giving up the right to litigate (or participate in as a party or class member) all disputes in court before a judge or jury. The dispute shall be settled by binding arbitration in accordance with the commercial arbitration rules of the American Arbitration Association. Either party may seek any interim or preliminary injunctive relief from any court of competent jurisdiction, as necessary to protect the party’s rights or property pending the completion of arbitration. Any and all legal, accounting, and other costs, fees, and expenses incurred by the prevailing party shall be borne by the non-prevailing party.</p><h2 id="03e6bf7b-b6ba-4b7e-909c-4dd08e7ef30e" class=""><strong>Submissions and Privacy</strong></h2><p id="4d2abf79-e64d-4005-bec3-3df147701073" class="">In the event that you submit or post any ideas, creative suggestions, designs, photographs, information, advertisements, data or proposals, including ideas for new or improved products, services, features, technologies or promotions, you expressly agree that such submissions will automatically be treated as non-confidential and non-proprietary and will become the sole property of MindPilot without any compensation or credit to you whatsoever. MindPilot and its affiliates shall have no obligations with respect to such submissions or posts and may use the ideas contained in such submissions or posts for any purposes in any medium in perpetuity, including, but not limited to, developing, manufacturing, and marketing products and services using such ideas.</p><h2 id="3e474a34-9be0-4b41-bfd8-27cb81a65eff" class=""><strong>Promotions</strong></h2><p id="40c44c57-d049-4084-9653-8c02dee0bf46" class="">MindPilot may, from time to time, include contests, promotions, sweepstakes, or other activities (“Promotions”) that require you to submit material or information concerning yourself. Please note that all Promotions may be governed by separate rules that may contain certain eligibility requirements, such as restrictions as to age and geographic location. You are responsible to read all Promotions rules to determine whether or not you are eligible to participate. If you enter any Promotion, you agree to abide by and to comply with all Promotions Rules.</p><p id="3b4fcc6c-b8f4-457f-8880-bdd59c5e06de" class="">Additional terms and conditions may apply to purchases of goods or services on or through the Services, which terms and conditions are made a part of this Agreement by this reference.</p><h2 id="185c6d9e-670c-45b8-86a6-6935a1385106" class=""><strong>Typographical Errors</strong></h2><p id="a310676f-b8b7-4b63-ac7a-694b3bac1562" class="">In the event a product and/or service is listed at an incorrect price or with incorrect information due to typographical error, we shall have the right to refuse or cancel any orders placed for the product and/or service listed at the incorrect price. We shall have the right to refuse or cancel any such order whether or not the order has been confirmed and your credit card charged. If your credit card has already been charged for the purchase and your order is canceled, we shall immediately issue a credit to your credit card account or other payment account in the amount of the charge.</p><h2 id="c7ca18e8-4392-4778-86c7-8bd13a2a16a9" class=""><strong>Miscellaneous</strong></h2><p id="2ebcac39-dc00-45c0-873d-a9b05e37bd89" class="">If for any reason a court of competent jurisdiction finds any provision or portion of these Terms &amp; Conditions to be unenforceable, the remainder of these Terms &amp; Conditions will continue in full force and effect. Any waiver of any provision of these Terms &amp; Conditions will be effective only if in writing and signed by an authorized representative of MindPilot. MindPilot will be entitled to injunctive or other equitable relief (without the obligations of posting any bond or surety) in the event of any breach or anticipatory breach by you. MindPilot operates and controls the MindPilot Service from its offices in TR. The Service is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation. Accordingly, those persons who choose to access the MindPilot Service from other locations do so on their own initiative and are solely responsible for compliance with local laws, if and to the extent local laws are applicable. These Terms &amp; Conditions (which include and incorporate the MindPilot Privacy Policy) contains the entire understanding, and supersedes all prior understandings, between you and MindPilot concerning its subject matter, and cannot be changed or modified by you. The section headings used in this Agreement are for convenience only and will not be given any legal import.</p><h2 id="fc6d9776-eb2e-452e-ac3d-c453a81a414f" class=""><strong>Disclaimer</strong></h2><p id="4fb200a1-23a6-49aa-a375-f476d9061810" class="">MindPilot is not responsible for any content, code or any other imprecision.</p><p id="544e2601-366e-42a4-a666-3d113143e889" class="">MindPilot does not provide warranties or guarantees.</p><p id="10bbacdd-8859-4ca8-a7fe-149386415497" class="">In no event shall MindPilot be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in connection with the use of the Service or the contents of the Service. The Company reserves the right to make additions, deletions, or modifications to the contents on the Service at any time without prior notice.</p><p id="003a5981-a69c-4a85-80dd-81f66ed63328" class="">The MindPilot Service and its contents are provided &quot;as is&quot; and &quot;as available&quot; without any warranty or representations of any kind, whether express or implied. MindPilot is a distributor and not a publisher of the content supplied by third parties; as such, MindPilot exercises no editorial control over such content and makes no warranty or representation as to the accuracy, reliability or currency of any information, content, service or merchandise provided through or accessible via the MindPilot Service. Without limiting the foregoing, MindPilot specifically disclaims all warranties and representations in any content transmitted on or in connection with the MindPilot Service or on sites that may appear as links on the MindPilot Service, or in the products provided as a part of, or otherwise in connection with, the MindPilot Service, including without limitation any warranties of merchantability, fitness for a particular purpose or non-infringement of third party rights. No oral advice or written information given by MindPilot or any of its affiliates, employees, officers, directors, agents, or the like will create a warranty. Price and availability information is subject to change without notice. Without limiting the foregoing, MindPilot does not warrant that the MindPilot Service will be uninterrupted, uncorrupted, timely, or error-free.</p><h2 id="c75d0529-aefa-4f33-bbbe-7eda18262690" class=""><strong>Contact Us</strong></h2><p id="3ed298dc-02b9-4a3b-b1a6-85e132f7351a" class="">Don&#x27;t hesitate to contact us if you have any questions.</p><p id="33309a06-6596-4e75-9850-0d9c2929e4d3" class="">Via Email: cybercate.ai@gmail.com</p></div></article></body></html>

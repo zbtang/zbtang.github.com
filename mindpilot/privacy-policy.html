@@ -1,0 +1,670 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Privacy Policy</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="6bde065f-6388-4486-bbf8-d12fd4b6834c" class="page sans"><header><h1 class="page-title">Privacy Policy</h1></header><div class="page-body"><p id="62cc4df6-4232-4247-b887-6d7f0dfbd8d2" class="">MindPilot (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and discloseMindPilot Nova.</p><p id="597adcd0-2eb3-40c8-978a-ca3ef1b26918" class="">This Privacy Policy applies to our website, and its associated subdomains (collectively, our “Service”) alongside our application, MindPilot. By accessing or using our Service, you signify that you have read, understood, and agree to our collection, storage, use, and disclosure of your personal information as described in this Privacy Policy and our Terms of Service.</p><h2 id="7b8483cc-866d-4f88-957b-2a01ab21e703" class=""><strong>Definitions and key terms</strong></h2><p id="aa8903fb-b9cd-4f29-9f04-828780b5ebb6" class="">To help explain things as clearly as possible in this Privacy Policy, every time any of these terms are referenced, they are strictly defined as:</p><ul id="62c780c6-8c3c-4fa7-a929-222f09fc5592" class="bulleted-list"><li style="list-style-type:disc">Cookie: small amount of data generated by a website and saved by your web browser. It is used to identify your browser, provide analytics, remember information about you, such as your language preference or login information.</li></ul><ul id="60cf0fd6-64a2-47ba-9257-3ddef7de92df" class="bulleted-list"><li style="list-style-type:disc">Company: when this policy mentions “Company,” “we,” “us,” or “our,” it refers to CyberCat, HACI İSA MAHALLESİ 75.YIL CUMHURİYET CAD. NO: 5 İÇ KAPI NO: 2 URLA / İZMİR that is responsible for your information under this Privacy Policy.</li></ul><ul id="ce1bc41b-b856-4f5b-9cb2-ed2f24fd9b0e" class="bulleted-list"><li style="list-style-type:disc">Country: where MindPilot or the owners/founderMindPilot Nova are based, in this case , the US</li></ul><ul id="46c49985-6475-47ec-b445-0343db0aca48" class="bulleted-list"><li style="list-style-type:disc">Customer: refers to the company, organization or person that signs up to use the MindPilot Service to manage the relationships with your consumers or service users.</li></ul><ul id="33b401bf-897f-4352-a658-2c6a724c7f37" class="bulleted-list"><li style="list-style-type:disc">Device: any internet connected device such as a phone, tablet, computer or any other device that can be used to visit MindPilot and use the services.</li></ul><ul id="17dfdfec-b0db-428a-b290-91a5aeb05005" class="bulleted-list"><li style="list-style-type:disc">IP address: Every device connected to the Internet is assigned a number known as an Internet protocol (IP) address. These numbers are usually assigned in geographic blocks. An IP address can often be used to identify the location from which a device is connecting to the Internet.</li></ul><ul id="b54fe18f-3352-4a5f-85b0-7986a3906d6f" class="bulleted-list"><li style="list-style-type:disc">Personnel: refers to those individuals who are employed by MindPilot or are under contract to perform a service on behalf of one of the parties.</li></ul><ul id="567e971c-f2a0-405f-98ca-9a5a877f2b7b" class="bulleted-list"><li style="list-style-type:disc">Personal Data: any information that is directly, indirectly, or in connection with other information — including a personal identification number — allows for the identification or identifiability of a natural person.</li></ul><ul id="68e8f448-7872-4a42-92b9-eb8c5dc67fbf" class="bulleted-list"><li style="list-style-type:disc">Service: refers to the service provided by MindPilot as described in the relative terms (if available) and on this platform.</li></ul><ul id="e9664d2b-3102-4e7b-9710-cc2c0b26a3a4" class="bulleted-list"><li style="list-style-type:disc">Third-party service: refers to advertisers, contest sponsors, promotional and marketing partners, and others who provide our content or whose products or services we think may interest you.</li></ul><ul id="ee7ba34a-9d61-43c8-a2dc-ebab62199565" class="bulleted-list"><li style="list-style-type:disc">Website: MindPilot&#x27;s site, which can be accessed via this URL:</li></ul><ul id="85d12915-47ca-4416-8da2-0e39cfd8035f" class="bulleted-list"><li style="list-style-type:disc">You: a person or entity that is registered with MindPilot to use the Services.</li></ul><h2 id="13d37349-f591-4898-b9a6-8ca79f31422b" class=""><strong>Information automatically collected</strong></h2><p id="9d687e1e-e5f8-4ba5-819f-6c94c1eb9737" class="">There is some information like your Internet Protocol (IP) address and/or browser and device characteristics — is collected automatically when you visit our platform. This information may be used to connect your computer to the Internet. Other information collected automatically could be a login, e-mail address, password, computer and connection information such as browser plug-in types and versions and time zone setting, operating systems and platforms, purchase history, (we sometimes aggregate with similar information from other Users), the full Uniform Resource Locator (URL) clickstream to, through and from our Website that may include date and time; cookie number; parts of the site you viewed or searched for; and the phone number you used to call our Customer Services. We may also use browser data such as cookies, Flash cookies (also known as Flash Local Shared Objects) or similar data on certain parts of our Website for fraud prevention and other purposes. During your visits, we may use software tools such as JavaScript to measure and collect session information including page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), and methods used to browse away from the page. We may also collect technical information to help us identify your device for fraud prevention and diagnostic purposes.</p><p id="0588c818-71a7-4045-94ea-d77e42b5cf49" class="">We automatically collect certain information when you visit, use or navigate the platform. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about who and when you use our and other technical information. This information is primarily needed to maintain the security and operation of our platform, and for our internal analytics and reporting purposes.</p><h2 id="ead6c96a-28e4-45f8-bb63-e3e76935ae7e" class=""><strong>Collection of Personal Data and Method</strong></h2><p id="d5104dd2-5f47-4530-92cb-1b381da0cc64" class="">MindPilot may process your personal data for the purposes specified in this Privacy Policy. The personal data of users collected and useMindPilot Nova in particular, are as follows: phone number which we will receive once yoMindPilotntact Nova, and identifier for advertisers designated in your mobile device used in accessing our services (The Identifier for Advertisers-IDFA), identifier for vendors/developers designated your mobile device (The Identifier for Vendors-IDVF) and Internet Protocol Address-IP Address).</p><h3 id="ac624225-025b-46c0-815f-755d82d9a41e" class=""><strong>Data Categories and Data Types</strong></h3><ul id="becea6ba-c3bb-4c4e-9606-b846fdd7dbfe" class="bulleted-list"><li style="list-style-type:disc"><strong>Contact Information:</strong> Phone number, e-mail address</li></ul><ul id="3aa6bdb3-f13a-4cf9-8727-68bff1411886" class="bulleted-list"><li style="list-style-type:disc"><strong>Process Security:</strong> Internet traffic data (network movements, IP address, visit data, time and date information), device name, In-app purchase history, identifier for advertisers designated in your mobile device used in accessing our services (if you give a permission, the Identifier for Advertisers-IDFA), identifier for vendors/developers designated your mobile device (The Identifier for Vendors-IDVF)</li></ul><ul id="45aa4cae-5fdf-4eb4-b488-8422dc8ca951" class="bulleted-list"><li style="list-style-type:disc"><strong>Customer Transaction:</strong> Order information</li></ul><ul id="d2c78c90-1529-49aa-9d57-61e2912cef6f" class="bulleted-list"><li style="list-style-type:disc"><strong>Marketing Data:</strong> IDFA, IDVF</li></ul><p id="720af307-668d-4f88-ae9b-2876e6144d3c" class="">We may collect your above mentioned data directly from you through electronic or physical mediums, your mobile device, third party applications or third party sources which you can access our application through these mediums such as Apple App Store, Google Play App Store, Amazon App Store (similar platforms together with “App Stores”), for the purposes of compliance with legal obligations, enhancing our services, administering your use of our services, as well as enabling you to enjoy and easily navigate our services.</p><p id="156024ee-e0b6-4db4-9365-e6fde10225ef" class="">We may collect your Log Data generated while you are using our services/applications (through our products or third party products). This Log Data may include information such as your device’s Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our service/application, the time/date of your use of the service/application, and other statistics.</p><h3 id="a2d8f4d0-da76-41e5-89c1-f1b5cc1d80cd" class=""><strong>How We Use Your Information</strong></h3><p id="ced492ee-e6ed-4302-854d-69f257da3c48" class="">We use your information for a variety of business purposes, including to provide our services, for administrative purposes, and to market our products and services, as described below.</p><h3 id="88ebc158-4fca-4be8-bf49-d7f6a5da0bd4" class=""><strong>Provide Our Services</strong></h3><p id="7f3fc210-0be8-4958-b9db-d6a2b0d0bed1" class="">We use your information to fulfill our contract with you and provide you with our services, such as:</p><ul id="34925deb-5cd9-46a3-9f0a-9db4071a09de" class="bulleted-list"><li style="list-style-type:disc">(a) Providing responses to your text messages and search queries, and other similar services;</li></ul><ul id="d2e467e0-5d80-455a-bd64-324b065243cf" class="bulleted-list"><li style="list-style-type:disc">(b) Managing your information and accounts;</li></ul><ul id="94734e99-dc60-4e96-8119-473f4217c72d" class="bulleted-list"><li style="list-style-type:disc">(c) Providing access to certain areas, functionalities, and features of our Services;</li></ul><ul id="516b8404-b3fd-4e19-86fd-dd09ac8076a9" class="bulleted-list"><li style="list-style-type:disc">(d) Answering requests for customer or technical support;</li></ul><ul id="14973404-8a96-4113-abc5-4ee05b5f5a61" class="bulleted-list"><li style="list-style-type:disc">(e) Communicating with you about your account, activities on our Services, and policy changes; and</li></ul><ul id="1d3dea9f-80fc-489a-bac4-84c3b8eb0fe1" class="bulleted-list"><li style="list-style-type:disc">(f) Processing your financial information and other payment methods for products or services purchased.</li></ul><h3 id="b89f1975-2576-43ce-b07f-06eaff229598" class=""><strong>Administrative Purposes</strong></h3><p id="9c88bb34-8abc-4628-8c00-17742996f528" class="">We use your information for various administrative purposes, such as:</p><ul id="a3c44967-a5b4-4a9d-8356-2c808c63dabb" class="bulleted-list"><li style="list-style-type:disc">(a) Pursuing our legitimate interests such as direct marketing, research and development (including marketing research), network and information security, and fraud prevention;</li></ul><ul id="87a6575c-6021-4865-b16c-c19ab1685e8c" class="bulleted-list"><li style="list-style-type:disc">(b) Detecting security incidents, protecting against malicious, deceptive, fraudulent or illegal activity, and prosecuting those responsible for that activity;</li></ul><ul id="c1b1c5aa-e693-4dbc-aa96-2c1e49abfbde" class="bulleted-list"><li style="list-style-type:disc">(c) Measuring interest and engagement in our Services;</li></ul><ul id="eba9594f-d48d-40ff-84f0-20f0b71f86ee" class="bulleted-list"><li style="list-style-type:disc">(d) Short-term, transient use, such as contextual customization of ads;</li></ul><ul id="66a1e74b-ee21-4925-b87e-26b198a40b8c" class="bulleted-list"><li style="list-style-type:disc">(e) Improving, upgrading or enhancing our Services;</li></ul><ul id="f4ef545d-81fb-4e82-8e5b-3e716aead7d7" class="bulleted-list"><li style="list-style-type:disc">(f) Developing new features and services;</li></ul><ul id="0e2e2c40-672f-4981-8431-eb96b825150f" class="bulleted-list"><li style="list-style-type:disc">(g) Ensuring internal quality control and safety;</li></ul><ul id="569370a4-0c60-4d40-b99e-3f1924564040" class="bulleted-list"><li style="list-style-type:disc">(h) Authenticating and verifying individual identities;</li></ul><ul id="b37f28d2-43c5-42fb-af8f-83f015a20a59" class="bulleted-list"><li style="list-style-type:disc">(i) Debugging to identify and repair errors with our Services;</li></ul><ul id="61809a7d-498e-4a64-9e55-420d313b2b58" class="bulleted-list"><li style="list-style-type:disc">(j) Auditing relating to interactions, transactions and other compliance activities;</li></ul><ul id="87b12b2c-3022-49a9-a576-aea021257d65" class="bulleted-list"><li style="list-style-type:disc">(k) Enforcing our agreements and policies; and</li></ul><ul id="bd6f7e7b-0e54-4e9c-90dd-985b783cae72" class="bulleted-list"><li style="list-style-type:disc">(l) Complying with our legal obligations.</li></ul><h3 id="a8e72603-c5ea-4d4a-b4f1-09d660126749" class=""><strong>Marketing and Advertising our Products and Services</strong></h3><p id="5a233efa-4ef6-4c4b-ad9f-e19419b1f9bd" class="">We may use personal information to tailor and provide you with content and advertisements. We may provide you with these materials as permitted by applicable law. Some of the ways we may market to you include email campaigns, custom audiences advertising, and “interest-based” or “personalized advertising,” including through cross-device tracking.</p><p id="70fa86ae-6c16-4efe-9e25-e569b0128af6" class="">If you have any questions about our marketing practices or if you would like to opt out of the use of your personal information for marketing purposes, you may contact us at any time as set forth in Section 15 below.</p><h3 id="19e0dccf-44c9-432d-84c9-7ad7f0ac3dc2" class=""><strong>Other Purposes</strong></h3><p id="84bfc8a0-f03d-4d4c-b500-2edf5c6542b7" class="">We also use your information for other purposes as requested by you or as permitted by applicable law.</p><p id="a60127a9-f40b-4707-9208-99be998cf935" class="">(a) Share Content with Friends or Colleagues. Our Services may offer various tools and functionalities. For example, we may allow you to provide information about your friends or colleagues through our referral services. Our referral services may allow you to forward or share certain content with a friend or colleague, such as an email inviting your friend to use our services.</p><h3 id="d97cb243-2081-4a3d-9524-f7755e639fac" class=""><strong>How We Disclose Your Information</strong></h3><p id="100044ea-9617-4cba-b7f5-d6d1b0a99824" class="">We disclose your information to third parties for a variety of business purposes, including providing our services, protecting us or others, or in the event of a major business transaction such as a merger, sale, or asset transfer, as described below.</p><h3 id="e931917a-bdbf-4fe4-b9ed-07bfc934182c" class=""><strong>Disclosures to Provide our Services</strong></h3><p id="30dfabe2-f6ed-45fa-8972-84c51cee9899" class="">The categories of third parties with whom we may share your information are described below.</p><ul id="c0a3c8a1-ac10-4b63-97b1-9fa380e8ff10" class="bulleted-list"><li style="list-style-type:disc">(a) Other Users or Third Parties: When you use the Services, you may choose to share personal information or content with other users or third parties. In addition, certain aspects of your profile may be available to other users.</li></ul><ul id="737d4157-1819-4bd8-a729-e7ebbef7a9a5" class="bulleted-list"><li style="list-style-type:disc">(b) Service Providers: We may share your personal information with our third-party service providers who use that information to help us provide our services. This includes service providers that provide us with IT support, hosting, payment processing, customer service, and related services.</li></ul><ul id="54e07789-c242-4129-a39e-bea932fea3a5" class="bulleted-list"><li style="list-style-type:disc">(c) Business Partners: We may share your personal information with business partners to provide you with a product or service you have requested. We may also share your personal information with business partners with whom we jointly offer products or services.</li></ul><ul id="9884fcb1-3f3e-4ead-ab81-c05604815523" class="bulleted-list"><li style="list-style-type:disc">(d) Advertising Partners: We may share your personal information, except for your biometric data, with third-party advertising partners. These third-party advertising partners may set Technologies and other tracking tools on our Services to collect information regarding your activities and your device (e.g., your IP address, cookie identifiers, page(s) visited, location, time of day). These advertising partners may use this information (and similar information collected from other services) for purposes of delivering personalized advertisements to you when you visit digital properties within their networks. This practice is commonly referred to as “interest-based advertising” or “personalized advertising.”</li></ul><ul id="34f70d9b-9cc7-4d4e-8972-1c933a05e3f8" class="bulleted-list"><li style="list-style-type:disc">(e) APIs/SDKs: We may use third-party application program interfaces (“APIs”) and software development kits (“SDKs”) as part of the functionality of our Services. For more information about our use of APIs and SDKs, please contact us as set forth below.</li></ul><h3 id="db6d8964-eaff-42f0-aa66-6f920438e1b5" class=""><strong>Disclosures to Protect Us or Others</strong></h3><p id="6adc7fac-c515-4de6-87e3-618c4678b5a8" class="">We may access, preserve, and disclose any information we store associated with you to external parties if we, in good faith, believe doing so is required or appropriate to: comply with law enforcement or national security requests and legal process, such as a court order or subpoena; protect your, our, or others’ rights, property, or safety; enforce our policies or contracts; collect amounts owed to us; or assist with an investigation or prosecution of suspected or actual illegal activity.</p><h3 id="3cbed81a-9087-40f1-90da-d27633e0e4b7" class=""><strong>Retention of Personal Information</strong></h3><p id="ebdea92f-d5db-442b-8263-c518ac18449f" class="">We may store the personal information we collect as described in this Privacy Notice for as long as you use our Services or as necessary to fulfill the purpose(s) for which it was collected, provide our Services, resolve disputes, establish legal defenses, conduct audits, pursue legitimate business purposes, enforce our agreements, and comply with applicable laws.</p><p id="39024e37-8508-4551-9323-43669fb07a4c" class="">Notwithstanding the foregoing, we may store biometric data for twenty four (24) hours.</p><h2 id="72c79ba5-c0cc-4f88-a795-185dc6213a3e" class=""><strong>General Principles Regarding Personal Data Processing</strong></h2><p id="7f4c4b01-5bcc-4ea2-b0b2-51d2b4d0090b" class="">In accordance with this Privacy Policy, personal data is processed by CyberCat as a data controller in line with the basic principles named here: (i) being in accordance with law and good faith, (ii) being accurate and, where necessary, up-to-date, (iii) being processed for specific, explicit and legitimate purposes, (iv) being limited for the purpose for which they are processed and data minimization; and (v) being stored for the period stipulated in the relevant legislation or required for the purpose for which they are processed.</p><h2 id="e241eded-8c8a-459f-b2ed-4f382838184d" class=""><strong>Purposes of Processing Personal Data and Legal Reasons</strong></h2><p id="80951501-50ea-4f1d-85b8-ff19aa60acab" class="">Your personal data will be processed via automatic or non-automatic means for the purposes stated below, in accordance with the applicable legislation and articles 5 and 6 of the PDP Law where it is expressly permitted by the laws, the establishment of a contract or direct relation to the execution or performance of the contract and for the legitimate interests of CyberCat provided that your fundamental rights and freedoms are protected.</p><h2 id="5da0a4ad-793b-433f-bcb5-e3ce9c407f43" class=""><strong>Purposes of Processing Personal Data Identity Information</strong></h2><ul id="7c0865b3-3ae4-4762-8a28-9a3e2b576766" class="bulleted-list"><li style="list-style-type:disc">execution of activities in compliance with legislation</li></ul><ul id="85b5a1a4-35f7-4286-894e-f12d35d74288" class="bulleted-list"><li style="list-style-type:disc">execution of company/product/service commitment operations</li></ul><h2 id="c378ca70-8a7c-4c40-b19f-68b1bdee3f3b" class=""><strong>Contact Information</strong></h2><ul id="be798dff-a3fa-4aa0-9849-1e42600e99da" class="bulleted-list"><li style="list-style-type:disc">execution of communication activities</li></ul><ul id="05707ed9-2bd1-414a-adab-c9406ce3c3b0" class="bulleted-list"><li style="list-style-type:disc">execution/auditing of business activities</li></ul><ul id="6ddbec0f-01e6-47a8-a6d3-d00f72929696" class="bulleted-list"><li style="list-style-type:disc">conducting after-sales support services for goods/services</li></ul><ul id="73243314-7a32-4f2f-b786-41fbc73d8e04" class="bulleted-list"><li style="list-style-type:disc">execution of goods/services sales processes</li></ul><ul id="488cbbff-485c-4a0c-b5d2-56010076f689" class="bulleted-list"><li style="list-style-type:disc">conducting storage and archive activities</li></ul><ul id="440a56a9-764e-4343-b038-392125be63c1" class="bulleted-list"><li style="list-style-type:disc">execution of agreement processes</li></ul><ul id="1476c2b2-951f-4e43-8a0f-19a395e83858" class="bulleted-list"><li style="list-style-type:disc">execution of information security processes</li></ul><ul id="1dde7c17-2b74-4260-aa16-7151ac4b814f" class="bulleted-list"><li style="list-style-type:disc">conducting audit/ethical activities</li></ul><ul id="c988c0d4-2346-4016-96ee-aaab17ff2b10" class="bulleted-list"><li style="list-style-type:disc">execution/audit of business activities</li></ul><h2 id="4f18b17d-f042-4fdc-8bc1-470f9bad2b3b" class=""><strong>Process Security</strong></h2><ul id="f8c341a0-05f3-4474-ad45-343d456d349f" class="bulleted-list"><li style="list-style-type:disc">conducting activities to ensure business continuity</li></ul><ul id="b8dcf6ba-a854-4840-81a8-5c9a49bb4752" class="bulleted-list"><li style="list-style-type:disc">providing information to authorized persons, institutions and organizations</li></ul><ul id="c6236e79-b464-4128-8b5f-7d5fbde4fc96" class="bulleted-list"><li style="list-style-type:disc">execution/auditing of business activities</li></ul><ul id="373c41df-edcf-4a3e-a60c-9c4cf512ed22" class="bulleted-list"><li style="list-style-type:disc">conducting after-sales support services for goods/services</li></ul><h2 id="192f1a92-cfc9-404d-a432-412d3d7a7e3c" class=""><strong>Customer Transaction</strong></h2><ul id="70a0fe25-04f1-4588-aa5e-7f3032d7cbc7" class="bulleted-list"><li style="list-style-type:disc">execution of goods/services sales processes</li></ul><ul id="2c08475e-06ef-463f-8983-9007f51b6c71" class="bulleted-list"><li style="list-style-type:disc">conducting activities for customer satisfaction</li></ul><ul id="01fe72f8-5cec-4b34-9525-39e646415dcf" class="bulleted-list"><li style="list-style-type:disc">execution of agreement processes</li></ul><ul id="40ccab9c-acd0-41e7-9e2c-e15757d23a82" class="bulleted-list"><li style="list-style-type:disc">execution of activities in compliance with legislation</li></ul><h2 id="264c280a-c919-45fc-b4e4-6a4deb82d35a" class=""><strong>Visual and Audio Records</strong></h2><ul id="55e44fad-6f4f-44e5-8bef-3f0e34cf3cd1" class="bulleted-list"><li style="list-style-type:disc">execution of agreement processes</li></ul><ul id="73668937-7535-4474-81f7-80a9d5d3b3ac" class="bulleted-list"><li style="list-style-type:disc">conducting storage and archive activities</li></ul><ul id="643c8d8b-67a5-4977-a1f8-10581cede839" class="bulleted-list"><li style="list-style-type:disc">conducting marketing analysis studies</li></ul><h2 id="d41262d5-0876-419f-9121-e84a74ca418a" class=""><strong>Marketing Data</strong></h2><ul id="e9a68976-11a3-4b98-9423-5a35d727d72f" class="bulleted-list"><li style="list-style-type:disc">execution of advertising/campaign/promotion processes</li></ul><p id="bf88388c-c404-4ebf-b233-2b914529621d" class="">In accordance with this text, your personal data is processed for the following purposes in accordance with the above general conditions</p><h2 id="944d4be4-67a9-4632-91ef-67fd319b5c76" class=""><strong>Legal Reasons Identity Information, Contact Information, Visual and Audio Records, Customer Transaction</strong></h2><ul id="b9fb7bed-ddd0-4f55-82cd-1bcec4f66bda" class="bulleted-list"><li style="list-style-type:disc">It is necessary to process your personal data, provided that we establish a contractual relationship with you, or that it is directly related to our performance obligation arising from this contract</li></ul><ul id="78498fc6-1043-4600-84da-9fd94f3a52b3" class="bulleted-list"><li style="list-style-type:disc">We have to process data in order to establish a right for you, to exercise and protect this right</li></ul><h2 id="b00d440e-183a-4e82-8724-e0d03fd0af29" class=""><strong>Process Security</strong></h2><ul id="332349ab-7fe4-4209-934b-20f7c7acb0d4" class="bulleted-list"><li style="list-style-type:disc">The law explicitly stipulates the process by which we process your personal data</li></ul><ul id="d5e8f6b5-ccec-4eeb-bc34-9cf6261cb7b5" class="bulleted-list"><li style="list-style-type:disc">Conditions that are necessary in order to fulfill our legal obligation</li></ul><h2 id="ed4df953-7385-468b-a67d-10f7e669b66e" class=""><strong>Marketing Data</strong></h2><p id="fbc986e0-44b5-4973-92c8-67ad16abc26b" class="">Your explicit consent Besides,</p><ul id="9cf358e5-5328-4435-9c30-756af8165933" class="bulleted-list"><li style="list-style-type:disc">The purposes of processing personal data may be updated in line with our obligations arising from our company policies and legislation; in particular,</li></ul><ul id="759dba2d-0504-4783-bc3b-639d3e6be7d5" class="bulleted-list"><li style="list-style-type:disc">Creating user accounts for service recipients/application users,</li></ul><ul id="3ddeb02d-8f9f-47ca-b9e9-ed7fa2abade8" class="bulleted-list"><li style="list-style-type:disc">Customizing our Services, understanding our users and their preferences to enhance user experience and enjoyment using our Services and improve our users’ experience,</li></ul><ul id="c9246322-954b-4b22-81f4-76c7c4297be5" class="bulleted-list"><li style="list-style-type:disc">Informing about new products, services and applications and delivering information regarding advertisements and promotions,</li></ul><ul id="e18ce5d0-b3e0-4f68-9d14-bae9f12e5958" class="bulleted-list"><li style="list-style-type:disc">Carrying out a digital subscription and In-app purchase processes of service recipients,</li></ul><ul id="4dab266d-eeef-45a7-aa82-f832a59df17d" class="bulleted-list"><li style="list-style-type:disc">Carrying out the auto-renewable subscriptions for giving users access to content, services, or premium features in our service,</li></ul><ul id="95daed27-36e3-48ed-9606-98268eaf85c1" class="bulleted-list"><li style="list-style-type:disc">Carrying out the processes of information security,</li></ul><ul id="8123447f-9911-4e8b-9051-0a44bd8a44c5" class="bulleted-list"><li style="list-style-type:disc">Conducting activities in accordance with legislation,</li></ul><ul id="ec337880-56ae-4355-b6b9-5480b8097af3" class="bulleted-list"><li style="list-style-type:disc">Fulfilling the demands of competent authorities,</li></ul><ul id="9b4c6a41-0d22-4315-b146-c98be7b30ef7" class="bulleted-list"><li style="list-style-type:disc">Conducting the processes of finance and accounting transactions,</li></ul><ul id="dd6d741a-c5b2-4703-9f3c-7b0eb42c3f36" class="bulleted-list"><li style="list-style-type:disc">Conducting communication activities,</li></ul><ul id="1038cb10-ddfd-4836-9f41-d2cbdbcdc201" class="bulleted-list"><li style="list-style-type:disc">Conducting the processes of contracts,</li></ul><ul id="f404c3a2-ff5c-40b8-adb7-bab237ac1422" class="bulleted-list"><li style="list-style-type:disc">Carrying out strategic planning activities,</li></ul><ul id="98366367-13ed-49dc-be27-231bc3a441e2" class="bulleted-list"><li style="list-style-type:disc">Following up requests and complaints,</li></ul><h2 id="d6bf5cc4-107e-4928-b9da-ece3ed32e725" class=""><strong>Third Party Websites and Applications</strong></h2><p id="4ac98dd8-5b36-477f-9326-6a85b6b5cee1" class="">CyberCat Apps; may contain links to other websites that are unknown toCyberCatp and whose content is not controlled. These linked websites may contain terms and conditions other thaCyberCatUp textCyberCateUp cannot be held responsible for the use or disclosure of information that these websites may process. LikewiCyberCatleUp shall not have any responsibility for any links from other sites provided toCyberCataleUp Apps ownCyberCatcaleUp. We collect information by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used. You are free to refuse our request for this information, with the understanding that we may be unable to provide you with some of your desired services without it.</p><h2 id="9974bb32-5f5b-4eb8-b88a-84520556fb70" class=""><strong>Push Notifications</strong></h2><p id="197cb909-3971-4ff4-8a03-c35cd07100bc" class="">CyberCat may occasionally send you push notifications via its mobile applications regarding application upgrades or notifications about our services. You can always edit such communication and notifications through the settings on your device and stop receiving such communications and notifications. Your data will be stored for the duration specified in the applicable legislation or for a reasonable time until the purpose of processing cease to exist, or during legal periods of limitation.CyberCatp may continue to store your personal data, even after the expiry of the purpose of its use provided that it is required by other laws or a separate granted by you in this regard. In cases where you alloCyberCatUp to store your personal data for additional time by giving your consent, such data shall be immediately deleted, destructed or anonymized upon the expiry of such additional time or once the purpose of processing no longer exists.</p><h2 id="9aa90a83-d190-44e0-b1cf-e91ed56416d2" class=""><strong>Technical and Administrative Measures</strong></h2><p id="bb5afa32-7142-4704-823c-42710a215751" class="">CyberCat stores the personal data it processes in accordance with relevant legislation for periods stipulated in relevant legislation or required for the purpose of processing.CyberCatp undertakes to take all necessary technical and administrative measures and to take the due care to ensure the confidentiality, integrity and security of personal data. In this context, it takes the necessary measures to prevent unlawful processing of personal data, unauthorized access to data, unlawful disclosure, modification or destruction of data. AccordinglyCyberCatUp takes the following technical and administrative measures regarding the personal data it processes:</p><h3 id="83384613-c8c2-4428-8575-5d449f2595e8" class=""><strong>Anti-virus application</strong></h3><p id="d784c6d9-2049-4233-9395-3862cd1cd250" class="">On all computers and servers in CyberCat’s information technology infrastructure, a periodically updated anti-virus application is installed.</p><h3 id="deaf9689-2dd3-4841-b82a-aa474fec04f9" class=""><strong>Firewall</strong></h3><p id="15fc8348-9fab-44e5-8eca-02d10cd1e529" class="">The data center and disaster recovery centers hosting CyberCat servers are protected by periodically updated software-loaded firewalls; the relevant next generation firewalls control the internet connections of all staff and provide protection against viruses and similar threats during this control.</p><h3 id="05076b44-77ab-4462-96ae-bd7ca4ed9e24" class=""><strong>VPN</strong></h3><p id="f21fbf31-cd52-4694-b2b4-916cc5efde64" class="">Suppliers can access CyberCat servers or systems through SSL-VPN defined on Firewalls. A separate SSL-VPN identification has been made for each supplier; with the identification made, the supplier only provides access to the systems that it should use or is authorized to use.</p><h3 id="1be1af9d-c8fc-4b03-8fcb-b3429b6f4384" class=""><strong>User identifications</strong></h3><p id="9b87a04b-0b67-4753-bbca-3362b87939b8" class="">CyberCat employees’ authorization toCyberCatp systems is limited only to the extent necessary by job descriptions; in case of any change of authority or duty, systemic authorizations are also updated.</p><h3 id="574e0af7-81fe-4201-8e38-e595b81a12d7" class=""><strong>Information security threat and event management</strong></h3><p id="b8548092-ae3e-4ddf-b4b3-876d871d8e34" class="">Events that occur on CyberCat servers and firewalls, are transferred to the “Information Security Threat and Event Management” system. This system alerts the responsible staff when a security threat occurs and allows them to respond immediately to the threat.</p><h3 id="a96d7626-1dfc-4ebe-94a3-0db2efafd37f" class=""><strong>Encryption</strong></h3><p id="de581662-29b3-4d0e-9fec-8ed6c0c71bab" class="">Sensitive data is stored with cryptographic methods and if required, transferred through environments encrypted with cryptographic methods and cryptographic keys are stored in secure and various environments.</p><h3 id="c15b0487-e63c-4dad-b722-ed9cced1a1f3" class=""><strong>Logging</strong></h3><p id="2df7f308-2506-4a60-8ac3-08417f9c4b39" class="">All transaction records regarding sensitive data are securely logged.</p><h3 id="09b7345b-6262-46c6-bb36-5ba954924e10" class=""><strong>Two-factor authentication</strong></h3><p id="a915dec8-93f5-4bdc-8e6b-bcb9ee5daeff" class="">Remote access to sensitive data is allowed through at least two-factor authentication.</p><h3 id="6d6f7886-dcba-4e87-9c41-bd1e646a53ab" class=""><strong>Training</strong></h3><p id="8514061c-5f50-4ca5-ad51-b4f5c315040d" class="">In order to increase the awareness of CyberCat employees against various information security violations and to minimize the impact of the human factor in information violation incidents, trainings are provided to employees at regular intervals.</p><h3 id="028abddc-54e9-4260-a8a9-4e5d7db844ff" class=""><strong>Physical data security</strong></h3><p id="24f13b03-bbfd-47eb-b27f-04fac4e52802" class="">It ensures that personal data on papers is necessarily stored in lockers and accessed only by authorized persons. Adequate security measures (for situations such as electric leakage, fire, deluge, thievery etc.) are taken based on the nature of the environment where sensitive data is stored.</p><h3 id="67382097-ee5b-45f0-a428-b4878c0c5bcb" class=""><strong>Backup</strong></h3><p id="06d134f3-3e21-4071-b1e3-98104f0a364d" class="">CyberCat periodically backs up the data it stores. As a backup mechanism, it uses the backup facilities provided by the cloud infrastructure providers, as well as the backup solutions it develops when deemed necessary, provided that it is in compliance with relevant legislation and provisions of this Policy.</p><h3 id="78a0b8af-7db2-418f-83db-989e0c265bdc" class=""><strong>Non-disclosure agreement</strong></h3><p id="103951de-51d9-4533-9067-0659ed4f7538" class="">Non-disclosure agreements are concluded with employees taking part in sensitive personal data processing.</p><h2 id="d22cb870-a86e-4a66-9f33-26a33ca1ec15" class=""><strong>Transfer of sensitive personal data</strong></h2><p id="7aad0eef-3623-4765-97e1-8316a79afc64" class="">If transfer of sensitive personal data is required through email; such transfer is done through (i) encrypted corporate email or (ii) Registered E-mail In the event that the personal data is damaged as a result of attacks on CyberCat Apps or on theCyberCatp system, despitCyberCatUp taking the necessary information security measures, or the personal data is obtained by unauthorized third partieCyberCateUp notifies this situation to Users immediately and, if necessary, to relevant data protection authority and takes necessary measures.</p><h2 id="091fb54b-12d5-43a9-a52f-6138bc95f83b" class=""><strong>Transferring Personal Data to Third Parties</strong></h2><p id="1c183297-81a8-430d-bd14-5e4312860418" class="">The procedures and principles to be applied for transferring personal data are regulated in articles 8 and 9 of the PDP Law, and the personal and special categories of data of the supplier may be transferred to third parties within the country or abroad since we may use servers and cloud systems located abroad. Your personal data may be transferred abroad for the following reasons</p><ul id="1c097a14-25ad-4779-a6ac-cb8f2a2bda0c" class="bulleted-list"><li style="list-style-type:disc">Conducting storage and archive activities</li></ul><ul id="4bb2e577-6ec6-4dc7-8b4d-4fcf4db69045" class="bulleted-list"><li style="list-style-type:disc">Conducting business activities</li></ul><ul id="f1520a3b-3cb6-4a27-9710-df02f94a5dfd" class="bulleted-list"><li style="list-style-type:disc">Conducting after-sales support services for goods/services</li></ul><ul id="3d861d67-1913-4a7c-a077-1c4f8924d3df" class="bulleted-list"><li style="list-style-type:disc">Managing customer relationship management processes</li></ul><p id="38fcbf60-a0ce-4842-af72-65f680bf5a02" class="">CyberCat may also transfer your personal data to service providers of our Company, third parties such as Facebook SDK, Adjust and Firebase Analytics, which are embedded into our service for the following purposes:</p><ul id="2ecdb117-cfb6-4c22-86b9-e2f67a1e01da" class="bulleted-list"><li style="list-style-type:disc">Sharing identity, communication and transaction security information with authorized public institutions and organizations for the purpose of execution of activities in compliance with legislation, monitoring and execution of legal affairs, informing authorized persons, institutions and organizations.</li></ul><ul id="4e28a3e4-8fd7-4df9-afd7-38ff3b9e83d1" class="bulleted-list"><li style="list-style-type:disc">Sharing identity and contact information to manage after-sales support services, conduct business activities and manage customer relationship management processes.</li></ul><ul id="e534cef9-4874-419d-a3af-6e9ad1aab744" class="bulleted-list"><li style="list-style-type:disc">Sharing identity and contact information, by user to third party applications which are integrated into the CyberCat Apps with the explicit consent of the User.</li></ul><h2 id="f5a61348-2daa-4de8-836f-af40582f75e3" class=""><strong>Personnel</strong></h2><p id="1c2d80b7-104a-4f1e-8759-0a47490c481e" class="">If you are a MindPilot worker or applicant, we collect information you voluntarily provide to us. We use the information collected for Human Resources purposes in order to administer benefits to workers and screen applicants.</p><p id="9d671ccc-26e5-4251-bcd2-7e4f9c5fde9e" class="">You may contact us in order to (1) update or correct your information, (2) change your preferences with respect to communications and other information you receive from us, or (3) receive a record of the information we have relating to you. Such updates, corrections, changes and deletions will have no effect on other information that we maintain, or information that we have provided to third parties in accordance with this Privacy Policy prior to such update, correction, change or deletion.</p><h2 id="1a590176-5061-4719-afd5-45412ab15a19" class=""><strong>Sale of Business</strong></h2><p id="4242c8e1-f9bf-46f2-9c2d-8e1063b6f723" class="">We reserve the right to transfer information to a third party in the event of a sale, merger or other transfer of all or substantially all of the assets of MindPilot or any of its Corporate Affiliates (as defined herein), or that portioMindPilot Nova or any of its Corporate Affiliates to which the Service relates, or in the event that we discontinue our business or file a petition or have filed against us a petition in bankruptcy, reorganization or similar proceeding, provided that the third party agrees to adhere to the terms of this Privacy Policy.</p><h2 id="c87e9189-2fa7-471f-b582-a5f129ca190a" class=""><strong>Affiliates</strong></h2><p id="89f468ca-22c8-4f6b-8c95-a704f24d38d5" class="">We may disclose information (including personal information) about you to our Corporate Affiliates. For purposes of this Privacy Policy, &quot;Corporate Affiliate&quot; means any person or entity which directly or indirectly controls, is controlled by or is under common control with MindPilot, whether by ownership or otherwise. Any information relating to you that we provide to our Corporate Affiliates will be treated by those Corporate Affiliates in accordance with the terms of this Privacy Policy.</p><h2 id="22fcc60e-f797-48ec-9c84-f4cfb846474b" class=""><strong>Governing Law</strong></h2><p id="324a59e5-cfef-4249-91ac-de382e80f91e" class="">This Privacy Policy is governed by the laws of Turkey without regard to its conflict of laws provision. You consent to the exclusive jurisdiction of the courts in connection with any action or dispute arising between the parties under or in connection with this Privacy Policy except for those individuals who may have rights to make claims under Privacy Shield, or the Swiss-US framework.</p><p id="30f7f055-e329-41b4-9e57-50af529aea81" class="">The laws of Turkey, excluding its conflicts of law rules, shall govern this Agreement and your use of the app. Your use of the app may also be subject to other local, state, national, or international laws.</p><p id="931fe54f-07ca-441f-a2e7-ad4cd1203f9d" class="">By using MindPilot or contacting us directly, you signify your acceptance of this Privacy Policy. If you do not agree to this Privacy Policy, you should not engage with our website, or use our services. Continued use of the website, direct engagement with us, or following the posting of changes to this Privacy Policy that do not significantly affect the use or disclosure of your personal information will mean that you accept those changes.</p><h2 id="40247d9c-76a3-4fcb-a742-b85f4177456c" class=""><strong>Your Consent</strong></h2><p id="4a4c4700-1df3-46e5-9f65-97ec6795f508" class="">We&#x27;ve updated our Privacy Policy to provide you with complete transparency into what is being set when you visit our site and how it&#x27;s being used. By using our app, registering an account, or making a purchase, you hereby consent to our Privacy Policy and agree to its terms.</p><h2 id="c0269a11-a22a-4fa3-af3b-44fd1464af42" class=""><strong>Links to Other Websites</strong></h2><p id="bc75b288-2139-4adb-84e4-f889231c0e88" class="">This Privacy Policy applies only to the Services. The Services may contain links to other websites not operated or controlled by MindPilot. We are not responsible for the content, accuracy or opinions expressed in such websites, and such websites are not investigated, monitored or checked for accuracy or completeness by us. Please remember that when you use a link to go from the Services to another website, our Privacy Policy is no longer in effect. Your browsing and interaction on any other website, including those that have a link on our platform, is subject to that website’s own rules and policies. Such third parties may use their own cookies or other methods to collect information about you.</p><h2 id="ec1c1e4c-e38e-4400-8b09-07edb65e0845" class=""><strong>Advertising</strong></h2><p id="3ac63d82-6749-4ced-8bc4-6489e430855b" class="">This app may contain third party advertisements and links to third party sites. MindPilot does not make any representation as to the accuracy or suitability of any of the information contained in those advertisements or sites and does not accept any responsibility or liability for the conduct or content of those advertisements and sites and the offerings made by the third parties.</p><p id="6e7fc6a0-a254-4fb4-93dc-ab11d6fc63ef" class="">Advertising keeps MindPilot and many of the websites and services you use free of charge. We work hard to make sure that ads are safe, unobtrusive, and as relevant as possible.</p><p id="2c9d03df-6e6d-4133-9c32-4fec6aa9edcc" class="">Third party advertisements and links to other sites where goods or services are advertised are not endorsements or recommendations by MindPilot of the third party sites, goods or serviMindPilot Nova takes no responsibility for the content of any of the ads, promises made, or the quality/reliability of the products or services offered in all advertisements.</p><h2 id="e3e3c6dd-007e-4147-893e-cea113683943" class=""><strong>Cookies for Advertising</strong></h2><p id="7796425d-fa48-4681-8386-aeeb5a2747ba" class="">These cookies collect information over time about your online activity on the app and other online services to make online advertisements more relevant and effective to you. This is known as interest-based advertising. They also perform functions like preventing the same ad from continuously reappearing and ensuring that ads are properly displayed for advertisers. Without cookies, it’s really hard for an advertiser to reach its audience, or to know how many ads were shown and how many clicks they received.</p><h2 id="dfc51b68-154c-4045-a9c3-1f4d994bbf9a" class=""><strong>Cookies</strong></h2><p id="748c9862-f51c-4235-9547-fcb6437ae1f7" class="">MindPilot uses &quot;Cookies&quot; to identify the areas of our website that you have visited. A Cookie is a small piece of data stored on your computer or mobile device by your web browser. We use Cookies to enhance the performance and functionality of our app but are non-essential to their use. However, without these cookies, certain functionality like videos may become unavailable or you would be required to enter your login details every time you visit the app as we would not be able to remember that you had logged in previously. Most web browsers can be set to disable the use of Cookies. However, if you disable Cookies, you may not be able to access functionality on our website correctly or at all. We never place Personally Identifiable Information in Cookies.</p><h2 id="3335837d-df93-4a76-a09e-abcfa7df3e80" class=""><strong>Blocking and disabling cookies and similar technologies</strong></h2><p id="ad2e7156-3b58-47f9-a7c4-e0728c8acd13" class="">Wherever you&#x27;re located you may also set your browser to block cookies and similar technologies, but this action may block our essential cookies and prevent our website from functioning properly, and you may not be able to fully utilize all of its features and services. You should also be aware that you may also lose some saved information (e.g. saved login details, site preferences) if you block cookies on your browser. Different browsers make different controls available to you. Disabling a cookie or category of cookie does not delete the cookie from your browser, you will need to do this yourself from within your browser. You should visit your browser&#x27;s help menu for more information.</p><h2 id="99863897-c23a-41f2-953a-0806ddaa426a" class=""><strong>Payment Details</strong></h2><p id="bee49bda-598c-4a48-9424-9d6e2a8f0d85" class="">In respect to any credit card or other payment processing details you have provided us, we commit that this confidential information will be stored in the most secure manner possible.</p><h2 id="4ac54adc-f83a-49da-9020-f0aa67448815" class=""><strong>Kids&#x27; Privacy</strong></h2><p id="e3bff837-affa-41f8-bcf5-15498598c01b" class="">We do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If you are a parent or guardian and you are aware that your child has provided Us with Personal Data, please contact Us. If we become aware that we have collected Personal Data from anyone under the age of 13 without verification of parental consent, we take steps to remove that information from our servers.</p><h2 id="fd79d7e7-08c1-4d06-998e-8fba90d15e7b" class=""><strong>Disclaimer</strong></h2><p id="1c5ab544-ce3c-4650-9a06-f0388d337c99" class="">MindPilot uses OpenAI’s GPT3.5 API, but we are not associated with OpenAI. We only use their official API for our MindPilot Nova is not affiliated with any government or political entity. The information prMindPiloted in Nova is for informational purposes only and should not be considered official or authoritative.</p><h2 id="f8165260-65a3-4891-8fa6-3882bda1c05d" class=""><strong>Changes To Our Privacy Policy</strong></h2><p id="65846a92-eabe-433d-8cf6-61ce03760c8d" class="">We may change our Service and policies, and we may need to make changes to this Privacy Policy so that they accurately reflect our Service and policies. Unless otherwise required by law, we will notify you (for example, through our Service) before we make changes to this Privacy Policy and give you an opportunity to review them before they go into effect. Then, if you continue to use the Service, you will be bound by the updated Privacy Policy. If you do not want to agree to this or any updated Privacy Policy, you can delete your account.</p><h2 id="eb538f40-ddca-4b7a-8a02-764835773ad6" class=""><strong>Third-Party Services</strong></h2><p id="c3f89d0d-3c1a-40bc-8b6e-3c905783bd8b" class="">We may display, include or make available third-party content (including data, information, applications and other products services) or provide links to third-party websites or services (&quot;Third-Party Services&quot;).</p><p id="7f20c707-3cc2-44d0-9c40-169479a329c1" class="">You acknowledge and agree that MindPilot shall not be responsible for any Third-Party Services, including their accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality or any other aspect therMindPilot Nova does not assume and shall not have any liability or responsibility to you or any other person or entity for any Third-Party Services.</p><p id="05e4e639-3ad3-4ea0-a3a5-75660eaabc5e" class="">Third-Party Services and links thereto are provided solely as a convenience to you and you access and use them entirely at your own risk and subject to such third parties&#x27; terms and conditions.</p><h2 id="45ce809d-9253-40d6-aa8d-3c58d99ffef9" class=""><strong>Tracking Technologies</strong></h2><ul id="8e078620-3df7-47dc-829d-33b002b48b39" class="bulleted-list"><li style="list-style-type:disc">Local Storage</li></ul><ul id="2c406f40-ac5b-474e-ba2b-1fd1657953f7" class="bulleted-list"><li style="list-style-type:disc">Local Storage, sometimes known as DOM storage, provides web apps with methods and protocols for storing client-side data. Web storage supports persistent data storage, similar to cookies but with a greatly enhanced capacity and no information stored in the HTTP request header.</li></ul><h2 id="a2a3f41e-98e2-4317-be2b-6688f70920bf" class=""><strong>Information about General Data Protection Regulation (GDPR)</strong></h2><p id="f8ae0391-f9dd-4a03-ab7c-be91ac08deac" class="">We may collect and use information from you if you are from the European Economic Area (EEA), and in this section of our Privacy Policy we are going to explain exactly how and why this data is collected, and how we maintain this data under protection from being replicated or used in the wrong way.</p><h2 id="fc426c49-ede1-461c-adb1-829ba518bef1" class=""><strong>What is GDPR?</strong></h2><p id="70e33457-86a0-43a5-a074-41a3fb565b24" class="">GDPR is an EU-wide privacy and data protection law that regulates how EU residents&#x27; data is protected by companies and enhances the control the EU residents have over their personal data.</p><p id="641723ce-b950-46ef-8c3d-726af0f5559e" class="">The GDPR is relevant to any globally operating company and not just EU-based businesses and EU residents. Our customers’ data is important irrespective of where they are located, which is why we have implemented GDPR controls as our baseline standard for all our operations worldwide.</p><h2 id="da74cec1-80f1-47ab-b155-33806754c33e" class=""><strong>What is personal data?</strong></h2><p id="92ac1eac-4cad-40d5-9add-c1ecb34781f8" class="">Any data that relates to an identifiable or identified individual. GDPR covers a broad spectrum of information that could be used on its own, or in combination with other pieces of information, to identify a person. Personal data extends beyond a person’s name or email address. Some examples include financial information, political opinions, genetic data, biometric data, IP addresses, physical address, sexual orientation, and ethnicity.</p><p id="3f149849-b634-4bc1-a1d8-92b7f938de95" class="">The Data Protection Principles include requirements such as:</p><ul id="7ec8842b-3219-4b71-9846-460ed20a938b" class="bulleted-list"><li style="list-style-type:disc">Personal data collected must be processed in a fair, legal, and transparent way and should only be used in a way that a person would reasonably expect.</li></ul><ul id="f4c5a051-02d7-4c31-a690-ea2667359bc5" class="bulleted-list"><li style="list-style-type:disc">Personal data should only be collected to fulfil a specific purpose and it should only be used for that purpose. Organizations must specify why they need personal data when they collect it.</li></ul><ul id="91ccf898-c84d-4bf6-923c-c1f21916c38f" class="bulleted-list"><li style="list-style-type:disc">Personal data should be held no longer than necessary to fulfil its purpose.</li></ul><ul id="d629f1f1-34e4-48dc-98dc-41e5a7403bcb" class="bulleted-list"><li style="list-style-type:disc">People covered by the GDPR have the right to access their own personal data. They can also request a copy of their data, and that their data be updated, deleted, restricted, or moved to another organization.</li></ul><h2 id="5b57dbde-722c-4edb-8478-0be736c1e2c0" class=""><strong>Why is GDPR important?</strong></h2><p id="04230dc0-4492-45cd-8b2d-121c82864dcf" class="">GDPR adds some new requirements regarding how companies should protect individuals&#x27; personal data that they collect and process. It also raises the stakes for compliance by increasing enforcement and imposing greater fines for breach. Beyond these facts, it&#x27;s simply the right thing to do. At MindPilot, we strongly believe that your data privacy is very important and we already have solid security and privacy practices in place that go beyond the requirements of this new regulation.</p><h2 id="a8133499-40cc-434d-9ec6-cec9ca6186c7" class=""><strong>Individual Data Subject&#x27;s Rights - Data Access, Portability and Deletion</strong></h2><p id="842ec298-19ea-44fb-a63a-1276e6359b6f" class="">We are committed to helping our customers meet the data subject rights requirements of GDPR. MindPilot processes or stores all personal data in fully vetted, DPA compliant vendors. We store all conversation and personal data for up to 6 years unless your account is deleted. In which case, we dispose of all data in accordance with our Terms of Service and Privacy Policy, but we will not hold it longer than 60 days.</p><p id="597bbb64-b362-4566-b941-ed6771b4a378" class="">We are aware that if you are working with EU customers, you need to be able to provide them with the ability to access, update, retrieve and remove personal data. We got you! We&#x27;ve been set up as self service from the start and have always given you access to your data and your customers data. Our customer support team is here for you to answer any questions you might have about working with the API.</p><h2 id="74db188a-e3f2-4a84-89b2-5bb732e288f7" class=""><strong>California Residents</strong></h2><p id="0c20d23b-1690-4ed5-a8bc-198899910e70" class="">The California Consumer Privacy Act (CCPA) requires us to disclose categories of Personal Information we collect and how we use it, the categories of sources from whom we collect Personal Information, and the third parties with whom we share it, which we have explained above.</p><p id="57ec9080-4bec-4107-be34-118c0bda34c2" class="">We are also required to communicate information about rights California residents have under California law. You may exercise the following rights:</p><ul id="7d47e17b-25b5-406c-91f1-3faf2e15a7a9" class="bulleted-list"><li style="list-style-type:disc">Right to Know and Access. You may submit a verifiable request for information regarding the: (1) categories of Personal Information we collect, use, or share; (2) purposes for which categories of Personal Information are collected or used by us; (3) categories of sources from which we collect Personal Information; and (4) specific pieces of Personal Information we have collected about you.</li></ul><ul id="e5f9c3e2-c7fa-4bef-a0c9-72621d4a969d" class="bulleted-list"><li style="list-style-type:disc">Right to Equal Service. We will not discriminate against you if you exercise your privacy rights.</li></ul><ul id="d2a66800-800e-4efb-9c83-81a9681591db" class="bulleted-list"><li style="list-style-type:disc">Right to Delete. You may submit a verifiable request to close your account and we will delete Personal Information about you that we have collected.</li></ul><ul id="a68fa576-e298-415c-a161-2b5e3d4555c7" class="bulleted-list"><li style="list-style-type:disc">Request that a business that sells a consumer&#x27;s personal data, not sells the consumer&#x27;s personal data.</li></ul><p id="c8489acd-2e74-469a-aa91-6a8c649388ab" class="">If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p><p id="470b8af9-beae-4561-8c1b-6f55c4666ba8" class="">We do not sell the personal information of our users.</p><p id="39787dd8-1e80-476b-85d1-5593e0fb97ce" class="">For more information about these rights, please contact us.</p><h2 id="224d1b6a-73b4-48cd-9d4b-a6970113ea37" class=""><strong>California Online Privacy Protection Act (CalOPPA)</strong></h2><p id="489998b9-5778-4f98-94fd-460077a4781c" class="">CalOPPA requires us to disclose categories of Personal Information we collect and how we use it, the categories of sources from whom we collect Personal Information, and the third parties with whom we share it, which we have explained above.</p><p id="01ed303f-7693-4f71-ab9d-dd07e986b1c9" class="">CalOPPA users have the following rights:</p><ul id="04edf6c5-4504-4901-a5f4-0ef0c52fc3a7" class="bulleted-list"><li style="list-style-type:disc">Right to Know and Access. You may submit a verifiable request for information regarding the: (1) categories of Personal Information we collect, use, or share; (2) purposes for which categories of Personal Information are collected or used by us; (3) categories of sources from which we collect Personal Information; and (4) specific pieces of Personal Information we have collected about you.</li></ul><ul id="48bbcfe8-66ab-4527-b0dc-159f392104d3" class="bulleted-list"><li style="list-style-type:disc">Right to Equal Service. We will not discriminate against you if you exercise your privacy rights.</li></ul><ul id="4ee6b155-efa9-41af-bfc5-a5ab1cac1697" class="bulleted-list"><li style="list-style-type:disc">Right to Delete. You may submit a verifiable request to close your account and we will delete Personal Information about you that we have collected.</li></ul><ul id="cc0978a1-4ed8-40e9-b4ff-c7027e543b6b" class="bulleted-list"><li style="list-style-type:disc">Right to request that a business that sells a consumer&#x27;s personal data, not sells the consumer&#x27;s personal data.</li></ul><p id="75fb1973-b226-4f9d-9545-bf1c3e4033b9" class="">If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p><p id="6f061bb7-0c50-422e-bc7f-0b6f1669d874" class="">We do not sell the personal information of our users.</p><p id="e97f9029-f105-4c15-b1d3-8405e8afe482" class="">MindPilot is a chatbot officially built on Open AI&#x27;s ChatGPT API, and its answers are generated using artificial intelligence and machine learning algorithms. Thus, it should not be considered professional advice or expert guidance. Our company does not accept liability for any information or error in the responses provided by the chatbot. While we strive to provide accurate and helpful answers, we do not guarantee the information&#x27;s accuracy, completeness, or reliability. Please be aware that our company can not be held responsible for any damages or losses that may occur due to using the information provided MindPilot. Users are advised to use their discretion and judgment when relying on the provided answers.</p><p id="731c56f0-61ec-40d3-ac6b-f6dc28faeaa4" class="">For more information about these rights, please contact us.</p><h2 id="a224c5a7-5e6d-40a5-aba2-7995e13bbc11" class=""><strong>Contact Us</strong></h2><p id="6ee672db-c1b3-46fc-b1e0-b69f53a5779c" class="">Don&#x27;t hesitate to contact us if you have any questions.</p><p id="833522e0-fbcb-488f-b341-4b5508b63fbf" class="">Via Email: cybercate.ai@gmail.com</p><p id="38aa1ef8-1116-4bdc-90e5-c06a8f668c43" class="">
+</p></div></article></body></html>
